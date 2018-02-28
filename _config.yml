@@ -81,7 +81,7 @@ deploy:
   repo: git@github.com:fish98/fish98.github.io.git
   branch: master
 
-# Search config
-search£º
+# Search 
+search: 
   path: search.json
   field: post
