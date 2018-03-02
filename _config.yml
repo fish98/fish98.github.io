@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: TTfish's blog
-subtitle: TTfish
+title: TTfish blog
+subtitle: TT Fish
 description: TTfish's blog
 author: TT fish
 language: zh-CN
-timezone: Asia/Hangzhou
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
