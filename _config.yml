@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: TT Fish On Sale
+title: TT Fish| On Sale
 subtitle: TT Fish
 description: TTfish's blog
 author: TT fish
@@ -85,3 +85,18 @@ deploy:
 search: 
   path: search.json
   field: post
+
+# Live2D
+## https://github.com/EYHN/hexo-helper-live2d
+live2d:
+  enable: true
+  # enable: false
+  scriptFrom: local # Default
+  # scriptFrom: jsdelivr # jsdelivr CDN
+  # scriptFrom: unpkg # unpkg CDN
+  # scriptFrom: https://cdn.jsdelivr.net/npm/live2d-widget@3.x/lib/L2Dwidget.min.js # Your custom url
+  model:
+    use: live2d-widget-model-shizuku # npm-module package name
+    # use: wanko # folder name in (hexo base dir)/live2d_models/
+    # use: ./wives/wanko # folder path relative to hexo base dir
+    # use: https://cdn.jsdelivr.net/npm/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json # Your custom url
