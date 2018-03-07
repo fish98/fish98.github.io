@@ -100,3 +100,7 @@ live2d:
     # use: wanko # folder name in (hexo base dir)/live2d_models/
     # use: ./wives/wanko # folder path relative to hexo base dir
     # use: https://cdn.jsdelivr.net/npm/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json # Your custom url
+  display:
+    position: right
+    width: 120
+    height: 240
