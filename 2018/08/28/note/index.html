@@ -15,7 +15,7 @@
 <meta property="og:description" content="感谢著名画师电波墙授权的Banner和缩略图！！！ 最近重新安裝了Arch Linux 非常的開心 記錄一些小細節(感謝约伊兹的萌狼乡手札！) 增加了幾個之前很想尋找但是忘記了的命令 圖片過多導致博客更新頻率降低 之後儘量減少圖片吧/(- O -)/">
 <meta property="og:locale" content="en">
 <meta property="og:image" content="http://yoursite.com/2018/08/28/note/thumbnail.jpg">
-<meta property="og:updated_time" content="2018-08-28T17:38:16.040Z">
+<meta property="og:updated_time" content="2018-09-03T02:03:21.222Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Notes For Archlinux Installation">
 <meta name="twitter:description" content="感谢著名画师电波墙授权的Banner和缩略图！！！ 最近重新安裝了Arch Linux 非常的開心 記錄一些小細節(感謝约伊兹的萌狼乡手札！) 增加了幾個之前很想尋找但是忘記了的命令 圖片過多導致博客更新頻率降低 之後儘量減少圖片吧/(- O -)/">
@@ -250,6 +250,13 @@
 <p><img src="/2018/08/28/note/cat.gif"><br><a id="more"></a></p>
 <h1 id="About-Time-SetUp"><a href="#About-Time-SetUp" class="headerlink" title="About Time SetUp"></a>About Time SetUp</h1><p>因爲之前是第一次使用非圖形化操作系統（在自己的電腦上） 有些操作有些亂來 現在想來仍十分愧疚 於是乎有一些環境被污染<br>例如npm和pip 這些包管理工具和pacman 於是乎重新安裝了Arch （然鵝忘記備份了.ssh文件夾 丟了openvpn的配置 嗚嗚嗚）</p>
 <p>剛安裝完系統以後 一般會先校對時間 而有些電腦的時間會有一些問題 想起了貴潮去年的納新短信 跳跳魚收到的顯示:”請在晚上23:00參加第二輪面試” 當時就懵了（hhhh） 當然我的電腦也有同樣的問題 記錄一下直接更改時間的方法（當然也可以在<code>timedatectl</code>中更改~）</p>
+<h3 id="情况不容乐观"><a href="#情况不容乐观" class="headerlink" title="情况不容乐观"></a>情况不容乐观</h3><p>重启了Windows以后可能把我的硬盘时间更改了 导致再此进入Linux的时候 时间又是英国时间</p>
+<p>可能的解决方法: </p>
+<ul>
+<li>改Windows的注册表（哭）</li>
+<li>暴力设置.bashrc的配置</li>
+<li><s>再也不用Windows</s>(真香)</li>
+</ul>
 <p>關於跳跳魚神奇的網卡驅動問題 下次再細說</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ rm -rf /etc/localtime</span><br><span class="line">$ ln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime</span><br></pre></td></tr></table></figure>
 <p>一般都會需要 <code>sudo</code>權限吧 /撓頭</p>
@@ -297,7 +304,7 @@
 
 </div>
 
-    <a data-url="http://yoursite.com/2018/08/28/note/" data-id="cjlekaknl000bbcjg3ficlhl7" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="http://yoursite.com/2018/08/28/note/" data-id="cjloospap0009ywshmtgog2jy" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
