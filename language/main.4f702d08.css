@@ -1,0 +1,200 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.bg1 {
+  background-color: #1b2b34;
+}
+
+.bg2 {
+  background-color: #4f5b66;
+}
+
+.color1 {
+  color: #99C794
+}
+
+.color2 {
+  color: #EC5f67
+}
+
+.color3 {
+  color: #FAC863
+}
+
+.color4 {
+  color: #99C794;
+}
+
+.color5 {
+  color: #6699CC;
+}
+
+@font-face{
+  font-family: OverpassMono;
+  src: url(OverpassMono-Regular.6c218ba8.ttf);
+  font-weight: 400;
+  font-style: normal
+}
+
+@font-face{
+  font-family: OverpassMono;
+  src: url(OverpassMono-SemiBold.7cb4c554.ttf);
+  font-weight: 600;
+  font-style: normal
+}
+
+ul.terminalElement {
+  font-size: 25px;
+  font-family: 'OverpassMono', monospace;
+  color: #FFF;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.terminalElement i {
+  font-style: normal
+}
+
+.choice {
+  cursor: pointer;
+}
+
+#terminal {
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  ul.terminalElement {
+    font-size: 15px;
+    margin: 10px;
+  }
+  #terminal > ul > li:nth-child(3) {
+    font-size: 11px;
+  }
+  #terminal > ul > li:nth-child(1) {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 350px) {
+  #terminal > ul > li:nth-child(1) {
+    font-size: 6.5px;
+  }
+}
+
+@media (min-width: 768px) {
+  div.info {
+    margin-left: 20vw;
+    margin-right: 20vw;
+  }
+}
+
+.logo{
+  color: #FFF;
+}
+
+.logoDiv{
+  display: flex;
+  height: 30vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.info{
+  height: 40vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.final{
+  width: 100vw;
+  height: 100vh;
+}
+
+.introHead{
+  font-size: 18px;
+  color: white;
+  font-family: monospace;
+}
+
+.itemContainer{
+  margin-top: 2vh;
+}
+
+.introItem{
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin-top: 0px;
+  font-family: monospace;
+}
+
+.view-lines{
+  font-size: 18px;
+}
+
+.imageGallery{
+  height: 30vh;
+  margin-top: 5vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.image{
+  height: 20vh;
+}
+
+
+.mtk1 { color: #d4d4d4; }
+.mtk2 { color: #1e1e1e; }
+.mtk3 { color: #cc6666; }
+.mtk4 { color: #9cdcfe; }
+.mtk5 { color: #ce9178; }
+.mtk6 { color: #b5cea8; }
+.mtk7 { color: #608b4e; }
+.mtk8 { color: #569cd6; }
+.mtk9 { color: #dcdcdc; }
+.mtk10 { color: #808080; }
+.mtk11 { color: #f44747; }
+.mtk12 { color: #c586c0; }
+.mtk13 { color: #a79873; }
+.mtk14 { color: #dd6a6f; }
+.mtk15 { color: #5bb498; }
+.mtk16 { color: #909090; }
+.mtk17 { color: #778899; }
+.mtk18 { color: #ff00ff; }
+.mtk19 { color: #b46695; }
+.mtk20 { color: #ff0000; }
+.mtk21 { color: #4f76ac; }
+.mtk22 { color: #3dc9b0; }
+.mtk23 { color: #74b0df; }
+.mtk24 { color: #4864aa; }
+.mtki { font-style: italic; }
+.mtkb { font-weight: bold; }
+.mtku { text-decoration: underline; text-underline-position: under; }
+
+.highlight pre {
+  white-space: pre-wrap;
+  font-family: monospace;
+  color: #000;
+  background-color: #F5F5F5;
+  font-family: monospace; }
+
+.highlight .Comment {
+  color: #657371; }
+.highlight .Special {
+  color: #c000c0;
+  font-weight: bold; }
+.highlight .Identifier {
+  color: #804000; }
+.highlight .Statement {
+  color: #008080;
+  font-weight: bold; }
+.highlight .PreProc {
+  color: #c000c0; }
+.highlight .Type {
+  color: #008000; }
