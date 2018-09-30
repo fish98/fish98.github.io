@@ -15,7 +15,7 @@
 <meta property="og:description" content="感谢著名画师电波墙授权的Banner和缩略图！！！ 最近重新安裝了Arch Linux 非常的開心 記錄一些小細節(感謝约伊兹的萌狼乡手札！) 增加了幾個之前很想尋找但是忘記了的命令 圖片過多導致博客更新頻率降低 之後儘量減少圖片吧/(- O -)/">
 <meta property="og:locale" content="en">
 <meta property="og:image" content="http://yoursite.com/2018/08/28/note/thumbnail.jpg">
-<meta property="og:updated_time" content="2018-09-08T23:51:21.824Z">
+<meta property="og:updated_time" content="2018-09-30T10:03:20.121Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Notes For Archlinux Installation">
 <meta name="twitter:description" content="感谢著名画师电波墙授权的Banner和缩略图！！！ 最近重新安裝了Arch Linux 非常的開心 記錄一些小細節(感謝约伊兹的萌狼乡手札！) 增加了幾個之前很想尋找但是忘記了的命令 圖片過多導致博客更新頻率降低 之後儘量減少圖片吧/(- O -)/">
@@ -262,9 +262,10 @@
 <li><s>再也不用Windows</s>(真香)</li>
 </ul>
 <p>關於跳跳魚神奇的網卡驅動問題 下次再細說</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ rm -rf /etc/localtime</span><br><span class="line">$ ln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime</span><br></pre></td></tr></table></figure>
-<p>一般都會需要 <code>sudo</code>權限吧 /撓頭</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ rm /etc/localtime</span><br><span class="line">$ ln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime</span><br></pre></td></tr></table></figure>
 <p><code>date</code>命令可以查看時間 例如<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ date</span><br><span class="line">Tue Aug 28 23:49:17 CST 2018</span><br></pre></td></tr></table></figure></p>
+<h3 id="更新于2018-9-30-17-50"><a href="#更新于2018-9-30-17-50" class="headerlink" title="更新于2018/9/30 17:50"></a>更新于2018/9/30 17:50</h3><p>然而上述方法在经历了长期的重启后 完全失效了 当然<code>sudo hwclock --localtime</code>显示的是格林尼治时间 然鹅<code>sudo hwclock --utc</code>却是东八区的时间 这就很奇怪 于是安装openntpd 并且enable 于是就很快乐 </p>
+<p>双倍的快乐！！</p>
 <hr>
 <h1 id="記錄一些容易忘記的花裏胡哨沒有實用的命令"><a href="#記錄一些容易忘記的花裏胡哨沒有實用的命令" class="headerlink" title="記錄一些容易忘記的花裏胡哨沒有實用的命令"></a>記錄一些容易忘記的花裏胡哨沒有實用的命令</h1><ul>
 <li><p>Figlet<br>將字符按一定字體輸出(ASCII FONT ART?)<br>記得有個拓展叫”Toilet”不是很想介紹 顏色比較難以接受</p>
@@ -308,7 +309,7 @@
 
 </div>
 
-    <a data-url="http://yoursite.com/2018/08/28/note/" data-id="cjm0usc5h000ge2jg2rn7wpsb" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="http://yoursite.com/2018/08/28/note/" data-id="cjmoqvs2j000g1ajg0eh2ntwa" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
