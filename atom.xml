@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-09-30T10:03:20.121Z</updated>
+  <updated>2018-10-10T15:29:08.792Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>paint</title>
+    <link href="http://yoursite.com/2018/10/10/paint/"/>
+    <id>http://yoursite.com/2018/10/10/paint/</id>
+    <published>2018-10-10T15:25:16.000Z</published>
+    <updated>2018-10-10T15:29:08.792Z</updated>
+    
+    <content type="html"><![CDATA[<p>好久沒有更新博客了呢！！！ 你這條魚爲什麼這麼怠惰啊…</p><p>最近在忙一些奇奇怪怪的事情 看來還是得好好記錄一些好玩的事兒呢</p><p>（終於不寫技術博客了 你是不是要跑路了哇…)(大霧)</p><a id="more"></a><p>先挖一個坑 明天填（咕咕咕）</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;好久沒有更新博客了呢！！！ 你這條魚爲什麼這麼怠惰啊…&lt;/p&gt;
+&lt;p&gt;最近在忙一些奇奇怪怪的事情 看來還是得好好記錄一些好玩的事兒呢&lt;/p&gt;
+&lt;p&gt;（終於不寫技術博客了 你是不是要跑路了哇…)(大霧)&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Art" scheme="http://yoursite.com/tags/Art/"/>
+    
+      <category term="Anime" scheme="http://yoursite.com/tags/Anime/"/>
+    
+  </entry>
   
   <entry>
     <title>Notes For Archlinux Installation</title>
