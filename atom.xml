@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-10-10T15:29:08.792Z</updated>
+  <updated>2018-10-13T14:43:07.354Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,26 +17,47 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>paint</title>
+    <title>Start Painting?(Fake)</title>
+    <link href="http://yoursite.com/2018/10/13/virt/"/>
+    <id>http://yoursite.com/2018/10/13/virt/</id>
+    <published>2018-10-13T14:32:35.000Z</published>
+    <updated>2018-10-13T14:43:07.354Z</updated>
+    
+    <content type="html"><![CDATA[<p>終於不寫技術博客了呢 看來跳跳魚要跑路了（大霧）</p><p>嵌字真的很累呢！ 翻譯快出來捱打！！！</p><p>人工智能Style2Paint上色 感覺如果有美術功底的話 有一些好玩的地方（然而跳跳魚沒有）<br><a id="more"></a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;終於不寫技術博客了呢 看來跳跳魚要跑路了（大霧）&lt;/p&gt;
+&lt;p&gt;嵌字真的很累呢！ 翻譯快出來捱打！！！&lt;/p&gt;
+&lt;p&gt;人工智能Style2Paint上色 感覺如果有美術功底的話 有一些好玩的地方（然而跳跳魚沒有）&lt;br&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Virtual Machine Bugs</title>
     <link href="http://yoursite.com/2018/10/10/paint/"/>
     <id>http://yoursite.com/2018/10/10/paint/</id>
     <published>2018-10-10T15:25:16.000Z</published>
-    <updated>2018-10-10T15:29:08.792Z</updated>
+    <updated>2018-10-13T14:43:13.317Z</updated>
     
-    <content type="html"><![CDATA[<p>好久沒有更新博客了呢！！！ 你這條魚爲什麼這麼怠惰啊…</p><p>最近在忙一些奇奇怪怪的事情 看來還是得好好記錄一些好玩的事兒呢</p><p>（終於不寫技術博客了 你是不是要跑路了哇…)(大霧)</p><a id="more"></a><p>先挖一個坑 明天填（咕咕咕）</p>]]></content>
+    <content type="html"><![CDATA[<p>好久沒有更新博客了呢！！！ 你這條魚爲什麼這麼怠惰啊…</p><p>最近在忙一些奇奇怪怪的事情 看來還是得好好記錄一些好玩的事兒呢</p><p>爲了能在寫代碼的時候能夠使用QQ 安裝了上古Windows7 結果折騰了好多時間…</p><p><s>羊可愛：所以你不能看手機咩?</s></p><a id="more"></a><p><s>先挖一個坑 明天填（咕咕咕）</s></p><h1 id="About-Virtual-Machine"><a href="#About-Virtual-Machine" class="headerlink" title="About Virtual Machine"></a>About Virtual Machine</h1><p>emmmmm 用虛擬機還是一件非常好的事情 然而之前嘗試自己配置自己的kvm 被qemu各種奇怪的配置弄暈了… 然而屈服了Virt-Manager以後 圖形化操作還是很愉快的</p><p>在裝機的時候</p><p>cannot run pkg-config to check libvirt version at Makefile.PL line 8.<br>==&gt; ERROR: A failure occurred in build().<br>    Aborting…<br>Error making: perl-sys-virt</p>]]></content>
     
     <summary type="html">
     
       &lt;p&gt;好久沒有更新博客了呢！！！ 你這條魚爲什麼這麼怠惰啊…&lt;/p&gt;
 &lt;p&gt;最近在忙一些奇奇怪怪的事情 看來還是得好好記錄一些好玩的事兒呢&lt;/p&gt;
-&lt;p&gt;（終於不寫技術博客了 你是不是要跑路了哇…)(大霧)&lt;/p&gt;
+&lt;p&gt;爲了能在寫代碼的時候能夠使用QQ 安裝了上古Windows7 結果折騰了好多時間…&lt;/p&gt;
+&lt;p&gt;&lt;s&gt;羊可愛：所以你不能看手機咩?&lt;/s&gt;&lt;/p&gt;
     
     </summary>
     
     
-      <category term="Art" scheme="http://yoursite.com/tags/Art/"/>
+      <category term="Tech" scheme="http://yoursite.com/tags/Tech/"/>
     
-      <category term="Anime" scheme="http://yoursite.com/tags/Anime/"/>
+      <category term="KVM" scheme="http://yoursite.com/tags/KVM/"/>
     
   </entry>
   
@@ -365,9 +386,9 @@
     
       <category term="Tech" scheme="http://yoursite.com/tags/Tech/"/>
     
-      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
-    
       <category term="Markdown" scheme="http://yoursite.com/tags/Markdown/"/>
+    
+      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
     
   </entry>
   
@@ -422,9 +443,9 @@
     </summary>
     
     
-      <category term="Markdown" scheme="http://yoursite.com/tags/Markdown/"/>
-    
       <category term="Test" scheme="http://yoursite.com/tags/Test/"/>
+    
+      <category term="Markdown" scheme="http://yoursite.com/tags/Markdown/"/>
     
   </entry>
   
