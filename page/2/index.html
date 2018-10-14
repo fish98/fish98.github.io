@@ -162,11 +162,11 @@
         </div>
         <div class="article-info profile-block">
             <div class="article-info-block">
-                15
+                16
                 <span>posts</span>
             </div>
             <div class="article-info-block">
-                12
+                15
                 <span>tags</span>
             </div>
         </div>
@@ -194,6 +194,149 @@
 
             
             <section id="main">
+    <article id="post-electron" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+            
+
+
+	
+		<a href="/2018/08/15/electron/" itemprop="url">
+            <img src="/2018/08/15/electron/banner.jpg" class="article-banner" />
+        </a>
+	
+
+
+
+        
+        
+            <header class="article-header">
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/2018/08/15/electron/">Note for Electron &amp;&amp; Vue.js</a>
+        </h1>
+    
+
+                
+                    <div class="article-meta">
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2018/08/15/electron/">
+            <time datetime="2018-08-15T12:03:39.000Z" itemprop="datePublished">2018-08-15</time>
+        </a>
+    </div>
+
+
+                        
+                        
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/Electron/">Electron</a>, <a class="tag-link" href="/tags/Tech/">Tech</a>
+    </div>
+
+                    </div>
+                
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            <p><ul>
+<li>最近写了一点点Electron 开发体验一般(然鹅在Arch上非常的痛苦)</li>
+<li>贵潮的纳新系统用Vue来写 遇到了一些坑</li>
+<li>TypeScript很棒 Golang很妙 Vue是个什么玩意儿</li>
+</ul>
+<p><img src="/2018/08/15/electron/rm.gif"></p></p>
+            <p class="article-more-link">
+                <a href="/2018/08/15/electron/#more">Read More</a>
+            </p>
+        
+        </div>
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+
+</div>
+
+    <a data-url="http://yoursite.com/2018/08/15/electron/" data-id="cjn8cjrch00098gjgokdp3vms" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+
+        </footer>
+    </div>
+    
+</article>
+
+
+
     <article id="post-linux" class="article article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
@@ -260,7 +403,7 @@
 
 </div>
 
-    <a data-url="http://yoursite.com/2018/07/27/linux/" data-id="cjn89ncw3000atyjg1x5ajrwu" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="http://yoursite.com/2018/07/27/linux/" data-id="cjn8cjrcj000a8gjgzu215gqs" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -405,7 +548,7 @@
 
 </div>
 
-    <a data-url="http://yoursite.com/2018/07/16/summmer/" data-id="cjn89ncxm001htyjgfb5n7y5u" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="http://yoursite.com/2018/07/16/summmer/" data-id="cjn8cjre4001k8gjgw0hnzjh6" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -550,162 +693,7 @@
 
 </div>
 
-    <a data-url="http://yoursite.com/2018/06/12/6-12/" data-id="cjn89ncvq0003tyjgli4o2sx3" class="article-share-link"><i class="fa fa-share"></i>Share</a>
-<script>
-    (function ($) {
-        // Prevent duplicate binding
-        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
-            __SHARE_BUTTON_BINDED__ = true;
-        } else {
-            return;
-        }
-        $('body').on('click', function() {
-            $('.article-share-box.on').removeClass('on');
-        }).on('click', '.article-share-link', function(e) {
-            e.stopPropagation();
-
-            var $this = $(this),
-                url = $this.attr('data-url'),
-                encodedUrl = encodeURIComponent(url),
-                id = 'article-share-box-' + $this.attr('data-id'),
-                offset = $this.offset(),
-                box;
-
-            if ($('#' + id).length) {
-                box = $('#' + id);
-
-                if (box.hasClass('on')){
-                    box.removeClass('on');
-                    return;
-                }
-            } else {
-                var html = [
-                    '<div id="' + id + '" class="article-share-box">',
-                        '<input class="article-share-input" value="' + url + '">',
-                        '<div class="article-share-links">',
-                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
-                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
-                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
-                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
-                        '</div>',
-                    '</div>'
-                ].join('');
-
-              box = $(html);
-
-              $('body').append(box);
-            }
-
-            $('.article-share-box.on').hide();
-
-            box.css({
-                top: offset.top + 25,
-                left: offset.left
-            }).addClass('on');
-
-        }).on('click', '.article-share-box', function (e) {
-            e.stopPropagation();
-        }).on('click', '.article-share-box-input', function () {
-            $(this).select();
-        }).on('click', '.article-share-box-link', function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-
-            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
-        });
-    })(jQuery);
-</script>
-
-            
-    
-
-        </footer>
-    </div>
-    
-</article>
-
-
-
-    <article id="post-stack" class="article article-type-post" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-            
-
-
-	
-		<a href="/2018/05/17/stack/" itemprop="url">
-            <img src="/2018/05/17/stack/banner.jpg" class="article-banner" />
-        </a>
-	
-
-
-
-        
-        
-            <header class="article-header">
-                
-    
-        <h1 itemprop="name">
-            <a class="article-title" href="/2018/05/17/stack/">Summary for Full Stack Project(I)</a>
-        </h1>
-    
-
-                
-                    <div class="article-meta">
-                        
-    <div class="article-date">
-        <i class="fa fa-calendar"></i>
-        <a href="/2018/05/17/stack/">
-            <time datetime="2018-05-17T07:52:22.000Z" itemprop="datePublished">2018-05-17</time>
-        </a>
-    </div>
-
-
-                        
-                        
-    <div class="article-tag">
-        <i class="fa fa-tag"></i>
-        <a class="tag-link" href="/tags/Node/">Node</a>, <a class="tag-link" href="/tags/Stack/">Stack</a>, <a class="tag-link" href="/tags/Tech/">Tech</a>
-    </div>
-
-                    </div>
-                
-            </header>
-        
-        
-        <div class="article-entry" itemprop="articleBody">
-        
-            <p><h1 id="Review-for-Bilding-A-Simplest-Full-Stack-Project-FrontEnd"><a href="#Review-for-Bilding-A-Simplest-Full-Stack-Project-FrontEnd" class="headerlink" title="Review for Bilding A Simplest Full Stack Project(FrontEnd)"></a>Review for Bilding A Simplest Full Stack Project(FrontEnd)</h1><p>近期完成了一个全栈的锅 虽然拖了整整一周的ddl 但是还算是写完了 </p>
-<p>项目地址: <a href="https://github.com/fish98/journey">Journey</a></p>
-<p>这次犯了大错误 把后端放在Host branch了 糟糕的工程习惯 下次一定要将他们分开repo</p>
-<p>For full stack projects, the basic components are frontEnd for display, backEnd for process and a Database for storage. We all know that information transfering in the network contain dozens of requests and responses. Based on different protocols, we are able to connect and enjoy Internet. Through different requests and responses, We are able to get a project alive.</p>
-<p>Ah, Seems a little away from the topic~~No problem!</p>
-<blockquote>
-<p>Create a simple frontEnd with <a href="https://github.com/facebook/create-react-app">Create-react-App</a></p>
-</blockquote>
-<blockquote>
-<p>Create a simple backEnd with <a href="https://koajs.com/">Koa.js</a></p>
-</blockquote>
-<blockquote>
-<p>Create a simple dataBase with <a href="https://mariadb.com/">mariadb</a></p>
-</blockquote>
-<blockquote>
-<p>这篇主要总结前端踩到的坑 附赠征文系统的主题 自由的鸡</p>
-</blockquote>
-<p><img src="/2018/05/17/stack/thumbnail.png"></p></p>
-            <p class="article-more-link">
-                <a href="/2018/05/17/stack/#more">Read More</a>
-            </p>
-        
-        </div>
-        <footer class="article-footer">
-            <div class="share-container">
-
-
-
-</div>
-
-    <a data-url="http://yoursite.com/2018/05/17/stack/" data-id="cjn89ncxe0018tyjg16azsxxt" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="http://yoursite.com/2018/06/12/6-12/" data-id="cjn8cjrc400038gjgbtqz0faz" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -798,6 +786,27 @@
                     <li>
                         
                         <div class="item-thumbnail">
+                            <a href="/2018/10/14/managacraft/" class="thumbnail">
+    
+    
+    
+    
+        <span style="background-image:url(/2018/10/14/managacraft/thumbnail.jpg)" alt="AI Manga Colorize" class="thumbnail-image"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2018/10/14/managacraft/" class="title">AI Manga Colorize</a></p>
+                            <p class="item-date"><time datetime="2018-10-14T03:57:23.000Z" itemprop="datePublished">2018-10-14</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
                             <a href="/2018/10/13/virt/" class="thumbnail">
     
     
@@ -879,27 +888,6 @@
                         </div>
                     </li>
                 
-                    <li>
-                        
-                        <div class="item-thumbnail">
-                            <a href="/2018/07/27/linux/" class="thumbnail">
-    
-    
-    
-    
-        <span style="background-image:url(/2018/07/27/linux/thumbnail.jpg)" alt="Some Linux Command &amp;&amp; Tools" class="thumbnail-image"></span>
-    
-</a>
-
-                        </div>
-                        
-                        <div class="item-inner">
-                            <p class="item-category"></p>
-                            <p class="item-title"><a href="/2018/07/27/linux/" class="title">Some Linux Command &amp;&amp; Tools</a></p>
-                            <p class="item-date"><time datetime="2018-07-26T16:17:50.000Z" itemprop="datePublished">2018-07-27</time></p>
-                        </div>
-                    </li>
-                
             </ul>
         </div>
     </div>
@@ -911,7 +899,7 @@
     <div class="widget-wrap">
         <h3 class="widget-title">archives</h3>
         <div class="widget">
-            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/10/">October 2018</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/08/">August 2018</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/07/">July 2018</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/06/">June 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/05/">May 2018</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/04/">April 2018</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/03/">March 2018</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/02/">February 2018</a><span class="archive-list-count">1</span></li></ul>
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/10/">October 2018</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/08/">August 2018</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/07/">July 2018</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/06/">June 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/05/">May 2018</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/04/">April 2018</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/03/">March 2018</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/02/">February 2018</a><span class="archive-list-count">1</span></li></ul>
         </div>
     </div>
 
@@ -920,7 +908,7 @@
     <div class="widget-wrap">
         <h3 class="widget-title">tags</h3>
         <div class="widget">
-            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Electron/">Electron</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Git/">Git</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hexo/">Hexo</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/KVM/">KVM</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Linux/">Linux</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Markdown/">Markdown</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Node/">Node</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Review/">Review</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/SCT/">SCT</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Stack/">Stack</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Tech/">Tech</a><span class="tag-list-count">13</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Test/">Test</a><span class="tag-list-count">1</span></li></ul>
+            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/2D/">2D</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Art/">Art</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Electron/">Electron</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Embed/">Embed</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Git/">Git</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hexo/">Hexo</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/KVM/">KVM</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Linux/">Linux</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Markdown/">Markdown</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Node/">Node</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Review/">Review</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/SCT/">SCT</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Stack/">Stack</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Tech/">Tech</a><span class="tag-list-count">14</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Test/">Test</a><span class="tag-list-count">1</span></li></ul>
         </div>
     </div>
 

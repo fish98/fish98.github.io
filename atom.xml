@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-10-14T02:20:55.864Z</updated>
+  <updated>2018-10-14T04:04:57.885Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,22 +17,50 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>AI Manga Colorize</title>
+    <link href="http://yoursite.com/2018/10/14/managacraft/"/>
+    <id>http://yoursite.com/2018/10/14/managacraft/</id>
+    <published>2018-10-14T03:57:23.000Z</published>
+    <updated>2018-10-14T04:04:57.885Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://github.com/lllyasviel">一喵</a>做的人工智能<a href="http://paintstransfer.com/">PaintsTransfer</a>上色 感覺如果有美術功底的話 還是挺好玩的（然而跳跳魚沒有）</p><p>这几天进了一喵的社区玩耍 一半是程序员 一半是画师 hhhhhh 还分成了两个群</p><a id="more"></a><h1 id="From-Style2Paint-to-PaintTransfer"><a href="#From-Style2Paint-to-PaintTransfer" class="headerlink" title="From Style2Paint to PaintTransfer"></a>From Style2Paint to PaintTransfer</h1><p>一喵是苏州大学的大四学生 一年前开源了<a href="https://github.com/lllyasviel/style2paints">Style2Paints</a> 现在已经6000多星星了 还听说投了一篇Siggraph的paper 之后一直在做<a href="http://mangacraft.net/">MangaCraft</a> 目前新产品<a href="http://paintstransfer.com/">PaintTransfer</a> 做的是迁移学习 虽然还是闭源的 但是非常厉害的工程师呢~</p><p>之前简单的做了一会儿的MangaCraft 花了一页 最大的感觉就是不懂配色真的很难受~ 甚至需要google篮球架的颜色来乱涂…</p><p>第一次看到这个项目也是之前 组里面的一本漫画是用了这个做了彩化 然鹅其实应该先嵌字再彩化？（太狠了）<br>组里后来说这个的配色在程序员的手中变得难以忍受（确实——）<br>感觉这个比较适合用来玩耍八~~~ 嘻嘻 并不是很能够用来做正经工作</p><p>Emmmmmm 对于实际的操作使用 其实还是有技巧之说 首先 漫画不是很适合 尤其是修完图后的 线稿上色就比较稳健 迁移学习也能够做的很开心</p><p>emmmm 上两张图呗~~</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://github.com/lllyasviel&quot;&gt;一喵&lt;/a&gt;做的人工智能&lt;a href=&quot;http://paintstransfer.com/&quot;&gt;PaintsTransfer&lt;/a&gt;上色 感覺如果有美術功底的話 還是挺好玩的（然而跳跳魚沒有）&lt;/p&gt;
+&lt;p&gt;这几天进了一喵的社区玩耍 一半是程序员 一半是画师 hhhhhh 还分成了两个群&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Tech" scheme="http://yoursite.com/tags/Tech/"/>
+    
+      <category term="2D" scheme="http://yoursite.com/tags/2D/"/>
+    
+      <category term="Art" scheme="http://yoursite.com/tags/Art/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Start Painting?(Fake)</title>
     <link href="http://yoursite.com/2018/10/13/virt/"/>
     <id>http://yoursite.com/2018/10/13/virt/</id>
     <published>2018-10-13T14:32:35.000Z</published>
-    <updated>2018-10-14T02:20:55.864Z</updated>
+    <updated>2018-10-14T04:01:23.601Z</updated>
     
-    <content type="html"><![CDATA[<p>終於不寫技術博客了呢 看來跳跳魚要跑路了（大霧）</p><p>嵌字真的很累呢！ 翻譯快出來捱打！！！</p><p>一喵做的人工智能Style2Paint上色 感覺如果有美術功底的話 還是挺好玩的（然而跳跳魚沒有）</p><a id="more"></a>]]></content>
+    <content type="html"><![CDATA[<p>終於不寫技術博客了呢 看來跳跳魚要跑路了（大霧）</p><p>嵌字真的很累呢！ 翻譯快出來捱打！！！ 過幾天有空再放教程</p><a id="more"></a><h1 id="About-Embedding"><a href="#About-Embedding" class="headerlink" title="About Embedding"></a>About Embedding</h1><p>唉 终究还是暴露了 emmm 前几天接了刀剑乱舞的一本漫画 神仙翻译居然把所有的字都给我翻译了~ 然鹅翻译还有一些错误… 这里就不拿出来表了… 翻译酱么么嗒!</p><p><img src="/2018/10/13/virt/translate.jpg"></p><ul><li>这张图我要做多久啊啊啊啊啊啊啊啊啊啊啊 ~~！！</li></ul><p><img src="/2018/10/13/virt/cute.jpg"></p><ul><li>这张图超可爱</li></ul>]]></content>
     
     <summary type="html">
     
       &lt;p&gt;終於不寫技術博客了呢 看來跳跳魚要跑路了（大霧）&lt;/p&gt;
-&lt;p&gt;嵌字真的很累呢！ 翻譯快出來捱打！！！&lt;/p&gt;
-&lt;p&gt;一喵做的人工智能Style2Paint上色 感覺如果有美術功底的話 還是挺好玩的（然而跳跳魚沒有）&lt;/p&gt;
+&lt;p&gt;嵌字真的很累呢！ 翻譯快出來捱打！！！ 過幾天有空再放教程&lt;/p&gt;
     
     </summary>
     
+    
+      <category term="2D" scheme="http://yoursite.com/tags/2D/"/>
+    
+      <category term="Embed" scheme="http://yoursite.com/tags/Embed/"/>
     
   </entry>
   
@@ -41,9 +69,9 @@
     <link href="http://yoursite.com/2018/10/10/paint/"/>
     <id>http://yoursite.com/2018/10/10/paint/</id>
     <published>2018-10-10T15:25:16.000Z</published>
-    <updated>2018-10-14T02:42:46.784Z</updated>
+    <updated>2018-10-14T03:37:38.592Z</updated>
     
-    <content type="html"><![CDATA[<p>好久沒有更新博客了呢!!! 你這條魚爲什麼這麼怠惰啊…</p><p>最近在忙一些奇奇怪怪的事情 看來還是得好好記錄一些好玩的事兒呢</p><p>爲了能在寫代碼的時候能夠使用QQ 安裝了上古Windows7 結果折騰了好多時間…</p><p><s>羊可愛：所以你不能看手機咩?</s></p><a id="more"></a><p><s>先挖一個坑 明天填（咕咕咕）</s></p><h1 id="About-Virt-Manager"><a href="#About-Virt-Manager" class="headerlink" title="About Virt-Manager"></a>About Virt-Manager</h1><p>emmmmm 用虛擬機還是一件非常好的事情 然而之前嘗試自己配置自己的kvm 被qemu各種奇怪的配置弄暈了… 然而屈服了Virt-Manager以後 終於在圖形化界面中找到了新世界（大霧———）然而有很多神仙錯誤 例如鼠標移動的神奇卡噸 分辨率和網速更是像一臺裝了Windows XP的2000年計算機 </p><p>途中在建立共享文件夾的時候 點擊小標籤“shared files”根本不理睬我 反而報錯<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">unsupported configuration: shared access <span class="keyword">for</span> disk <span class="string">'xxx'</span> requires use of supported storage format</span><br></pre></td></tr></table></figure></p><p>嘛 看來文件格式不能夠讓他滿意呢 面向Google搜索後 發現大體有兩種方法</p><ul><li>第一種是用libguestfs工具 修復上面的問題 實現share file</li></ul><h2 id="小插曲"><a href="#小插曲" class="headerlink" title="小插曲"></a>小插曲</h2><p>在裝libguestfs的時候 出現了報錯</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">cannot run pkg-config to check libvirt version at Makefile.PL line 8.</span><br><span class="line">==&gt; ERROR: A failure occurred <span class="keyword">in</span> build().</span><br><span class="line">    Aborting...</span><br><span class="line">Error making: perl-sys-virt</span><br></pre></td></tr></table></figure><p>emmmmm 總而言之就是沒有pkg-config導致perl-sys-virt的build失敗了</p><p>這可真是丟人… 於是馬上安裝必須包base-devel 解決上述問題 arch上還是非常需要的</p><ul><li>第二種是用qemu-nbd 直接掛載了在/var/lib/libvirt/images裏的qcow2文件</li></ul><p>具體不詳細說了 跳跳魚已經放棄了!!!</p><p>可能kvm不是很適合來跑圖形界面 還是換一個工具吧 於是</p><h1 id="About-VirtualBox"><a href="#About-VirtualBox" class="headerlink" title="About VirtualBox"></a>About VirtualBox</h1><p>剛上手virtualBox的時候 跳跳魚非常偷稅!! 這是什麼天使?! 爲什麼速度那麼快 界面那麼流暢… 而且有很多都幫你封裝好了 例如共享文件夾之類的</p><p>還有好多優點 例如 动态分配硬盤空間 這讓我之前被kvm吃掉的20G可以少一些使用</p><p>按住F8進入安全模式後 打開了3D加速 CD Drive Guest Addition很棒</p><p>還有一個就是神奇的Seamless Mode 成功的把導航欄裝了起來 感覺就像在使用Windows導航的Arch Linux</p><p>點名表扬~</p>]]></content>
+    <content type="html"><![CDATA[<p>好久沒有更新博客了呢!!! 你這條魚爲什麼這麼怠惰啊…</p><p>最近在忙一些奇奇怪怪的事情 看來還是得好好記錄一些好玩的事兒呢</p><p>爲了能在寫代碼的時候能夠使用QQ 安裝了上古Windows7 結果折騰了好多時間…</p><p><s>羊可愛：所以你不能看手機咩?</s></p><a id="more"></a><p><s>先挖一個坑 明天填（咕咕咕）</s></p><h1 id="About-Virt-Manager"><a href="#About-Virt-Manager" class="headerlink" title="About Virt-Manager"></a>About Virt-Manager</h1><p>emmmmm 用虛擬機還是一件非常好的事情 然而之前嘗試自己配置自己的kvm 被qemu各種奇怪的配置弄暈了… 然而屈服了Virt-Manager以後 終於在圖形化界面中找到了新世界（大霧———）然而有很多神仙錯誤 例如鼠標移動的神奇卡噸 分辨率和網速更是像一臺裝了Windows XP的2000年計算機 </p><p>途中在建立共享文件夾的時候 點擊小標籤“shared files”根本不理睬我 反而報錯<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">unsupported configuration: shared access <span class="keyword">for</span> disk <span class="string">'xxx'</span> requires use of supported storage format</span><br></pre></td></tr></table></figure></p><p>嘛 看來文件格式不能夠讓他滿意呢 面向Google搜索後 發現大體有兩種方法</p><ul><li>第一種是用libguestfs工具 修復上面的問題 實現share file</li></ul><h2 id="小插曲"><a href="#小插曲" class="headerlink" title="小插曲"></a>小插曲</h2><p>在裝libguestfs的時候 出現了報錯</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">cannot run pkg-config to check libvirt version at Makefile.PL line 8.</span><br><span class="line">==&gt; ERROR: A failure occurred <span class="keyword">in</span> build().</span><br><span class="line">    Aborting...</span><br><span class="line">Error making: perl-sys-virt</span><br></pre></td></tr></table></figure><p>emmmmm 總而言之就是沒有pkg-config導致perl-sys-virt的build失敗了</p><p>這可真是丟人… 於是馬上安裝必須包base-devel 解決上述問題 arch上還是非常需要的</p><ul><li>第二種是用qemu-nbd 直接掛載了在/var/lib/libvirt/images裏的qcow2文件</li></ul><p>具體不詳細說了 跳跳魚已經放棄了!!!</p><p>可能kvm不是很適合來跑圖形界面 還是換一個工具吧 於是</p><p><img src="/2018/10/10/paint/bear.jpg"></p><h1 id="About-VirtualBox"><a href="#About-VirtualBox" class="headerlink" title="About VirtualBox"></a>About VirtualBox</h1><p>剛上手virtualBox的時候 跳跳魚非常偷稅!! 這是什麼天使?! 爲什麼速度那麼快 界面那麼流暢… 而且有很多都幫你封裝好了 例如共享文件夾之類的</p><p>還有好多優點 例如 动态分配硬盤空間 這讓我之前被kvm吃掉的20G可以少一些使用</p><p>按住F8進入安全模式後 打開了3D加速 CD Drive Guest Addition很棒</p><p>還有一個就是神奇的Seamless Mode 成功的把導航欄裝了起來 感覺就像在使用Windows導航的Arch Linux</p><p>點名表扬~ 雖然有一些Bug 不過可以理解…</p>]]></content>
     
     <summary type="html">
     
