@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-10-28T10:18:55.437Z</updated>
+  <updated>2018-11-10T15:51:59.102Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,20 +17,53 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>embed</title>
-    <link href="http://yoursite.com/2018/10/28/embed/"/>
-    <id>http://yoursite.com/2018/10/28/embed/</id>
-    <published>2018-10-28T10:18:55.000Z</published>
-    <updated>2018-10-28T10:18:55.437Z</updated>
+    <title>Trick or Treat</title>
+    <link href="http://yoursite.com/2018/11/01/halloween/"/>
+    <id>http://yoursite.com/2018/11/01/halloween/</id>
+    <published>2018-11-01T03:33:08.000Z</published>
+    <updated>2018-11-10T15:51:59.102Z</updated>
     
-    <content type="html"><![CDATA[<script src="/crypto-js.js"></script><script src="/mcommon.js"></script><h3 id="encrypt-message">「私の名前」</h3><link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css"> <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script> <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> <div id="security"> <div> <div class="input-group"> <input type="text" class="form-control" aria-label="Enter the password." id="pass"/> <div class="input-group-btn"> <button type="button" class="btn btn-default" onclick="decryptAES()">Decrypt</button> </div> </div> </div> </div> <div id="encrypt-blog" style="display:none"> U2FsdGVkX1+n4t4flMWLoDwQw7QvqamacIebGN+5SteBfgi7zEoHkJq4nq0ADSljHhy33Sus0O0MY4mS6WdJNhfDMoEUQoLTAPA6AimtEDI= </div>]]></content>
+    <content type="html"><![CDATA[<p>忽然想起来前几天有人问 :圣诞节和万圣节有什么区别啊…. emmmmm …. emmmm</p><ul><li>扔上来一些不全的万圣节特典?(盗图)</li><li><a href="https://github.com/fish98/XDownloader">XDownload V1.2</a>新功能完成~可以下载原图了!</li><li>很有意思的歌!<br><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="440" height="90" src="//music.163.com/outchain/player?type=2&id=31356680&auto=1&height=66"></iframe><a id="more"></a></li></ul><h1 id="XDownloader-v1-2"><a href="#XDownloader-v1-2" class="headerlink" title="XDownloader v1.2"></a>XDownloader v1.2</h1><p><img align="right" width="180px" src="https://d29fhpw069ctt2.cloudfront.net/icon/image/49283/preview.svg"></p><h2 id="Update-new-Feature-on-Nov-8th"><a href="#Update-new-Feature-on-Nov-8th" class="headerlink" title="Update new Feature on Nov.8th"></a>Update new Feature on Nov.8th</h2><ul><li>Make Multi File Download Avaliable =&gt; Modify type of <code>config.url</code> from Number to Array.</li><li>Require Progress Package to add process bar when downloading instead of logs.</li><li>Fix file detect bugs.</li></ul><h2 id="Update-on-Nov-5th"><a href="#Update-on-Nov-5th" class="headerlink" title="Update on Nov.5th"></a>Update on Nov.5th</h2><p>Due to the demand of origin sized image when embeddig, add new feature for origin sized download option in config file</p><p>check the usage in new T-UI feature and planning to migrate to electronic version with all platform packaged</p><h2 id="Now-Support-Process-Bar-Status-Check-and-Original-Image-Download"><a href="#Now-Support-Process-Bar-Status-Check-and-Original-Image-Download" class="headerlink" title="Now Support Process Bar Status Check and Original Image Download"></a>Now Support Process Bar Status Check and Original Image Download</h2><hr><h1 id="Halloween"><a href="#Halloween" class="headerlink" title="Halloween!"></a>Halloween!</h1><h2 id="1"><a href="#1" class="headerlink" title="1"></a>1</h2><ul><li>TTfish @fish * 1h<br>saw a gil dressing up as a FBI yesterday night…that’s is literally the scariest halloween costume i’e ever seen.</li></ul><p><img src="/2018/11/01/halloween/2.jpg"></p><ul><li>TTfish @fish * 55min<br>That’s REALLY SCARY!</li></ul><p><img src="/2018/11/01/halloween/1.jpg"></p><h2 id="2"><a href="#2" class="headerlink" title="2"></a>2</h2><p><img src="/2018/11/01/halloween/3.jpg"> </p><h2 id="Artist-Unknown"><a href="#Artist-Unknown" class="headerlink" title="Artist: Unknown"></a>Artist: Unknown</h2><h2 id="3"><a href="#3" class="headerlink" title="3"></a>3</h2><p><img src="/2018/11/01/halloween/4.jpg"></p><h2 id="官方发糖"><a href="#官方发糖" class="headerlink" title="官方发糖?"></a>官方发糖?</h2><p><img src="/2018/11/01/halloween/5.jpg"></p>]]></content>
     
     <summary type="html">
     
-      「Encrypted_Blog」
+      &lt;p&gt;忽然想起来前几天有人问 :圣诞节和万圣节有什么区别啊…. emmmmm …. emmmm&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;扔上来一些不全的万圣节特典?(盗图)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/fish98/XDownloader&quot;&gt;XDownload V1.2&lt;/a&gt;新功能完成~可以下载原图了!&lt;/li&gt;
+&lt;li&gt;很有意思的歌!&lt;br&gt;&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;440&quot; height=&quot;90&quot; src=&quot;//music.163.com/outchain/player?type=2&amp;id=31356680&amp;auto=1&amp;height=66&quot;&gt;&lt;/iframe&gt;&lt;/li&gt;&lt;/ul&gt;
     
     </summary>
     
+    
+      <category term="Halloween" scheme="http://yoursite.com/tags/Halloween/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>About Embed!!!</title>
+    <link href="http://yoursite.com/2018/10/28/embed/"/>
+    <id>http://yoursite.com/2018/10/28/embed/</id>
+    <published>2018-10-28T10:18:55.000Z</published>
+    <updated>2018-11-10T15:45:18.482Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>咕咕已久的教程上传 讨论一下奇奇怪怪的东西</li><li>要好好学习英语和日语了!!! ( 认 真 )</li><li>梦里什么都有: 成为一体姬以后进军时轴压制!!!<a id="more"></a></li></ul><p>扔了一些古老的教案在上面 还是非常简单的!!! 毕竟不是自己做 </p><p><a href="&quot;https://sea.zjuqsc.com/f/bae86eed04a74dde8e3b/?dl=1&quot;">Click Me to Download!!!</a></p><h2 id="关于曾经遇到的一些奇特的姿势"><a href="#关于曾经遇到的一些奇特的姿势" class="headerlink" title="关于曾经遇到的一些奇特的姿势"></a>关于曾经遇到的一些奇特的姿势</h2><p>对于全彩半透明 …. emmmm 要有耐心就好了 举最近的一个例子吧 非常的难受 一页里面出现了无数的拟声词</p><p>这里讨论一下对于语气词后促音的对待</p><p><strong>按照惯例</strong>: 语气词后的促音应该擦除!!! (对于黑白的就经常忘记 wwwwww)</p><p><img src="/2018/10/28/embed/2.jpg"></p><ul><li>这个は后面的是あ的片假名 所以应该写成“哈啊”</li></ul><p><img src="/2018/10/28/embed/3.jpg"></p><ul><li>这个ん后面就是个つ 赶紧擦掉!!!</li></ul><p><img src="/2018/10/28/embed/1.jpg"></p><ul><li>那么问题来了 这个は后面的… 是个啥!!! </li><li>以老朽拙见 这个应该是个草体的あ 所以应该翻译成“哈啊”!!! (大雾)</li></ul><h2 id="关于一开始遇到的小问题"><a href="#关于一开始遇到的小问题" class="headerlink" title="关于一开始遇到的小问题"></a>关于一开始遇到的小问题</h2><ul><li>关于photoshop的模仿图章使用 应该选择清晰的网点 然后对准!!! 当网点完全重合的时候 模仿图章就会把网点越做越大<br>这个技能很重要（不然就凉了 </li><li>对于源图层的保存 一般开始工作的时候 先<code>Ctrl + J</code>创建一个复制图层 设置透明度成为50% 这样哪怕之后搞砸了 也可以用模仿图章改回来</li><li>所有的字需要居中对齐… 这个真的好难啊 要瞎了 </li><li>很多时候生成jpg文件的时候会发现有些字被隐藏了 还是得检查一下呢!!</li></ul><p>以上~~~</p><p><img src="/2018/10/28/embed/4.jpg"></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;咕咕已久的教程上传 讨论一下奇奇怪怪的东西&lt;/li&gt;
+&lt;li&gt;要好好学习英语和日语了!!! ( 认 真 )&lt;/li&gt;
+&lt;li&gt;梦里什么都有: 成为一体姬以后进军时轴压制!!!&lt;/li&gt;&lt;/ul&gt;
+    
+    </summary>
+    
+    
+      <category term="Embed" scheme="http://yoursite.com/tags/Embed/"/>
+    
+      <category term="2D" scheme="http://yoursite.com/tags/2D/"/>
+    
+      <category term="Face" scheme="http://yoursite.com/tags/Face/"/>
     
   </entry>
   
@@ -39,7 +72,7 @@
     <link href="http://yoursite.com/2018/10/24/managacraft/"/>
     <id>http://yoursite.com/2018/10/24/managacraft/</id>
     <published>2018-10-24T14:32:35.000Z</published>
-    <updated>2018-10-26T13:37:04.029Z</updated>
+    <updated>2018-11-10T15:13:09.848Z</updated>
     
     <content type="html"><![CDATA[<p>Update on 8102.10.24! </p><ul><li>終於不寫技術博客了呢 看來跳跳魚要跑路了（大霧）</li><li>最近做的一些小东西(伪·搬运)</li><li><strong>Groobum Princess怎么可以这么可爱!!!</strong></li></ul><a id="more"></a><h1 id="About-Embedding"><a href="#About-Embedding" class="headerlink" title="About Embedding"></a>About Embedding</h1><p>嵌字真的很累呢！ 翻譯快出來捱打！！！ 過幾天有空考虑把教程放上来<br>　<br>唉 终究还是暴露了 emmm 前几天接了刀剑乱舞的一本漫画 神仙翻译居然把所有的字都给我翻译了~ </p><p>然鹅翻译还有一些错误… 这里就不拿出来表了… 翻译酱么么嗒!</p><p><img src="/2018/10/24/managacraft/translate.jpg"></p><ul><li>这张图我要做多久咧 ~~！！</li></ul><p><img src="/2018/10/24/managacraft/complete.png"></p><ul><li>做完了嘤嘤嘤 然而还有好多其他锅…</li></ul><hr><h1 id="Groobum-Princess-！！"><a href="#Groobum-Princess-！！" class="headerlink" title="Groobum Princess ！！"></a>Groobum Princess ！！</h1><p>前几日在Reddit看到了Groobum Princess的同人(物?)作品 太妙了 稍微处理了一下 忍不住想扔上来</p><p><img src="/2018/10/24/managacraft/g1.png"><br><img src="/2018/10/24/managacraft/g2.png"><br><img src="/2018/10/24/managacraft/g3.png"></p>]]></content>
     
@@ -58,6 +91,8 @@
       <category term="Embed" scheme="http://yoursite.com/tags/Embed/"/>
     
       <category term="2D" scheme="http://yoursite.com/tags/2D/"/>
+    
+      <category term="Face" scheme="http://yoursite.com/tags/Face/"/>
     
       <category term="Groobum" scheme="http://yoursite.com/tags/Groobum/"/>
     
