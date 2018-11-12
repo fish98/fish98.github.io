@@ -6,19 +6,19 @@
     <title>Basic Node.js (Node Spider1) | TT Fish | On Sale</title>
     <meta name="google-site-verification" content="Cn4n6yHcm60OfmHaXPXrTRFzh3suCV0P_SClgCCD9FU" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="Node的基础与Node.jsの爬虫(上) 说到爬虫，一般会先想到Scarpy或者BeautifulSoup这样的python库 但是 当工程量比较小的时候 不需要像Scarpy这样的企业级分布式爬虫的时候 虽然跳跳鱼非常的咸鱼 身为前端工程师 还是用Nodejs比较舒服(才没有表扬Node呢 口亨) 这篇blog主要总结一下之前的经验 尤其是对于学校教务网的探索心得(逃)  本文包括以下内容：">
+    <meta name="description" content="Node的基础与Node.jsの爬虫(上) 说到爬虫，一般会先想到Scarpy或者BeautifulSoup这样的python库 但是 当工程量比较小的时候 不需要像Scarpy这样的企业级分布式爬虫的时候 虽然TTfish非常的咸鱼 身为前端工程师 还是用Nodejs比较舒服(才没有表扬Node呢 口亨) 这篇blog主要总结一下之前的经验 尤其是对于学校教务网的探索心得(逃)  本文包括以下内">
 <meta name="keywords" content="Tech,Node">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Basic Node.js (Node Spider1)">
 <meta property="og:url" content="http://yoursite.com/2018/04/06/NodeSpider/index.html">
 <meta property="og:site_name" content="TT Fish | On Sale">
-<meta property="og:description" content="Node的基础与Node.jsの爬虫(上) 说到爬虫，一般会先想到Scarpy或者BeautifulSoup这样的python库 但是 当工程量比较小的时候 不需要像Scarpy这样的企业级分布式爬虫的时候 虽然跳跳鱼非常的咸鱼 身为前端工程师 还是用Nodejs比较舒服(才没有表扬Node呢 口亨) 这篇blog主要总结一下之前的经验 尤其是对于学校教务网的探索心得(逃)  本文包括以下内容：">
+<meta property="og:description" content="Node的基础与Node.jsの爬虫(上) 说到爬虫，一般会先想到Scarpy或者BeautifulSoup这样的python库 但是 当工程量比较小的时候 不需要像Scarpy这样的企业级分布式爬虫的时候 虽然TTfish非常的咸鱼 身为前端工程师 还是用Nodejs比较舒服(才没有表扬Node呢 口亨) 这篇blog主要总结一下之前的经验 尤其是对于学校教务网的探索心得(逃)  本文包括以下内">
 <meta property="og:locale" content="en">
 <meta property="og:image" content="http://yoursite.com/2018/04/06/NodeSpider/thumbnail4.jpg">
-<meta property="og:updated_time" content="2018-11-11T01:29:35.248Z">
+<meta property="og:updated_time" content="2018-11-12T09:02:40.499Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Basic Node.js (Node Spider1)">
-<meta name="twitter:description" content="Node的基础与Node.jsの爬虫(上) 说到爬虫，一般会先想到Scarpy或者BeautifulSoup这样的python库 但是 当工程量比较小的时候 不需要像Scarpy这样的企业级分布式爬虫的时候 虽然跳跳鱼非常的咸鱼 身为前端工程师 还是用Nodejs比较舒服(才没有表扬Node呢 口亨) 这篇blog主要总结一下之前的经验 尤其是对于学校教务网的探索心得(逃)  本文包括以下内容：">
+<meta name="twitter:description" content="Node的基础与Node.jsの爬虫(上) 说到爬虫，一般会先想到Scarpy或者BeautifulSoup这样的python库 但是 当工程量比较小的时候 不需要像Scarpy这样的企业级分布式爬虫的时候 虽然TTfish非常的咸鱼 身为前端工程师 还是用Nodejs比较舒服(才没有表扬Node呢 口亨) 这篇blog主要总结一下之前的经验 尤其是对于学校教务网的探索心得(逃)  本文包括以下内">
 <meta name="twitter:image" content="http://yoursite.com/2018/04/06/NodeSpider/thumbnail4.jpg">
     
 
@@ -246,7 +246,7 @@
         
             
             <h1 id="Node的基础与Node-jsの爬虫-上"><a href="#Node的基础与Node-jsの爬虫-上" class="headerlink" title="Node的基础与Node.jsの爬虫(上)"></a>Node的基础与<s>Node.jsの爬虫(上)</s></h1><hr>
-<p>说到爬虫，一般会先想到<a href="https://scrapy.org/">Scarpy</a>或者<a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/">BeautifulSoup</a>这样的python库 但是 当工程量比较小的时候 不需要像Scarpy这样的企业级分布式爬虫的时候 虽然跳跳鱼非常的咸鱼 身为前端工程师 还是用Nodejs比较舒服(才没有表扬Node呢 口亨) 这篇blog主要总结一下之前的经验 尤其是对于学校教务网的探索心得(逃)</p>
+<p>说到爬虫，一般会先想到<a href="https://scrapy.org/">Scarpy</a>或者<a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/">BeautifulSoup</a>这样的python库 但是 当工程量比较小的时候 不需要像Scarpy这样的企业级分布式爬虫的时候 虽然TTfish非常的咸鱼 身为前端工程师 还是用Nodejs比较舒服(才没有表扬Node呢 口亨) 这篇blog主要总结一下之前的经验 尤其是对于学校教务网的探索心得(逃)</p>
 <p><img src="/2018/04/06/NodeSpider/nodejs.png"></p>
 <p>本文包括以下内容：</p>
 <blockquote>
@@ -258,7 +258,7 @@
 <li>万恶的教务网</li>
 </ul>
 </blockquote>
-<p>跳跳鱼自己都没想到会有这么多要写 一篇根本写不完 要不还是分开写吧….</p>
+<p>TTfish自己都没想到会有这么多要写 一篇根本写不完 要不还是分开写吧….</p>
 <a id="more"></a>
 <hr>
 <h1 id="Node-js"><a href="#Node-js" class="headerlink" title="Node.js"></a>Node.js</h1><p><a href="https://nodejs.org/en/docs/">Node.js</a>是一个基于 Chrome V8 引擎的 JavaScript 运行环境 Javasrcipt是一门动态类型，面向对象的解释型语言 和Java有相似之处 但是还是有很多的区别(明明叫Livescript 为了蹭Java热度才改的名) 人们发现将它即时编译有非常大的应用前景 于是就有了Node.js这样的前后端兼吃的环境 Node.js不支持多线程(<s>不像Python那样的假多线程</s>) 但是它是非阻塞的 支持并发(<s>不像世界上最好的语言</s>) 它是事件驱动的 带有优秀的npm 包管理器</p>
@@ -294,7 +294,7 @@
 
 </div>
 
-    <a data-url="http://yoursite.com/2018/04/06/NodeSpider/" data-id="cjoc7kx5u0005yjjg134gpade" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="http://yoursite.com/2018/04/06/NodeSpider/" data-id="cjoe6n5680008a8shvijve6qc" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
