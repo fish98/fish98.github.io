@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-11-12T08:47:40.269Z</updated>
+  <updated>2018-11-14T08:08:18.300Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,62 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Outline for PhysicsChemistry (Thermodynamics)</title>
+    <link href="http://yoursite.com/2018/11/14/phy-chem/"/>
+    <id>http://yoursite.com/2018/11/14/phy-chem/</id>
+    <published>2018-11-14T05:56:38.000Z</published>
+    <updated>2018-11-14T08:08:18.300Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a><p>Outline for PhysicsChemistry (Thermodynamics)</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;Outline for PhysicsChemistry (Thermodynamics)&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="Review" scheme="http://yoursite.com/tags/Review/"/>
+    
+      <category term="PhysicsChemistry" scheme="http://yoursite.com/tags/PhysicsChemistry/"/>
+    
+      <category term="Thermodynamics" scheme="http://yoursite.com/tags/Thermodynamics/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Physics Mid-Term Review (Electromagnetism)</title>
+    <link href="http://yoursite.com/2018/11/14/physics/"/>
+    <id>http://yoursite.com/2018/11/14/physics/</id>
+    <published>2018-11-14T05:56:13.000Z</published>
+    <updated>2018-11-14T08:07:42.695Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>Physics(A) Ⅱ Mid-Term – Electromagnetism</li></ul><p>すぐに試験に行くつもりですね　魚はちゃんと勉強しなければならないだ～～</p><a id="more"></a><hr><h3 id="General-Concept"><a href="#General-Concept" class="headerlink" title="General Concept"></a>General Concept</h3><p>$$ k = 8.99 \times 10^8N \cdot m^2 / C^2 $$<br>取 $ k = \frac{1}{4\pi\epsilon_0}$ 得<br>$$ \epsilon_0 = \frac{1}{4\pi k} = 8.85 \times 10^{-12} C^2 / (N \cdot m^2)$$</p><h3 id="场强的计算"><a href="#场强的计算" class="headerlink" title="场强的计算"></a>场强的计算</h3><p>$$ \vec E = \frac {\vec F}{q_0} \tag {定义式} $$</p><p>$$ \vec E = \frac {1}{4\pi\epsilon_0} \frac{q}{r^2} \hat r \tag {叠加法} $$</p><p>$$ \Phi_e = \int \vec E · d\vec S = \frac{1}{\epsilon_0} \sum_{s内}{q_i}\tag {高斯法} $$</p><p>$$ \vec E = -grad U\tag {静电场的梯度} $$</p><p><img src="/2018/11/14/physics/1.png"></p><p>应用</p><ul><li>半径为R的均匀带电圆环 带电量q 竖直距离z<br>$$dE = \frac{\lambda dl}{4\pi \epsilon_0(z^2 + R^2)^{1/2}}$$<br>$$E = \frac{qz}{4\pi \epsilon_0(z^2 + R^2)^{3/2}}$$<br>拓展到一整个圆盘 就做一次积分<br>$$ E = \frac{\sigma}{2\epsilon_0}(1-\frac{z}{\sqrt{z^2 + R^2 }}) $$<br>取z非常小 得带电平面的场强为<br>$$E = \frac{\sigma}{2\epsilon_0} $$</li><li>带电直导线周围场强<br>$$E_y = \frac{\lambda}{4\pi \epsilon_0a}(cos\theta_1 - cos\theta_2)$$</li></ul><p>无限长直导线 -&gt; 圆柱<br>$$ E = \frac{\lambda}{2\pi \epsilon a}$$</p><h3 id="电势的计算"><a href="#电势的计算" class="headerlink" title="电势的计算"></a>电势的计算</h3>]]></content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;Physics(A) Ⅱ Mid-Term – Electromagnetism&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;すぐに試験に行くつもりですね　魚はちゃんと勉強しなければならないだ～～&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Physics" scheme="http://yoursite.com/tags/Physics/"/>
+    
+      <category term="Electromagnetism" scheme="http://yoursite.com/tags/Electromagnetism/"/>
+    
+      <category term="Review" scheme="http://yoursite.com/tags/Review/"/>
+    
+  </entry>
   
   <entry>
     <title>Trick or Treat</title>
@@ -260,9 +316,9 @@
     
       <category term="Tech" scheme="http://yoursite.com/tags/Tech/"/>
     
-      <category term="SCT" scheme="http://yoursite.com/tags/SCT/"/>
-    
       <category term="Review" scheme="http://yoursite.com/tags/Review/"/>
+    
+      <category term="SCT" scheme="http://yoursite.com/tags/SCT/"/>
     
   </entry>
   
