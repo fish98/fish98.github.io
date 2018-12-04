@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-11-26T12:33:16.021Z</updated>
+  <updated>2018-11-26T13:57:21.465Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Note for Japanese Study</title>
+    <link href="http://yoursite.com/2018/11/26/japan/"/>
+    <id>http://yoursite.com/2018/11/26/japan/</id>
+    <published>2018-11-26T13:53:33.000Z</published>
+    <updated>2018-11-26T13:57:21.465Z</updated>
+    
+    <content type="html"><![CDATA[<p>Note</p><a id="more"></a>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Note&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="japanese" scheme="http://yoursite.com/tags/japanese/"/>
+    
+      <category term="Note" scheme="http://yoursite.com/tags/Note/"/>
+    
+  </entry>
   
   <entry>
     <title>High-temperature Superconductivity Data</title>
@@ -561,43 +583,9 @@
     
       <category term="Tech" scheme="http://yoursite.com/tags/Tech/"/>
     
-      <category term="Markdown" scheme="http://yoursite.com/tags/Markdown/"/>
-    
       <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
     
-  </entry>
-  
-  <entry>
-    <title>Git基础</title>
-    <link href="http://yoursite.com/2018/03/07/git/"/>
-    <id>http://yoursite.com/2018/03/07/git/</id>
-    <published>2018-03-07T14:39:00.000Z</published>
-    <updated>2018-11-19T08:27:32.843Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="A-Brief-Summary-For-Git-Use"><a href="#A-Brief-Summary-For-Git-Use" class="headerlink" title="A Brief Summary For Git Use"></a>A Brief Summary For Git Use</h1><hr><p>TTfish的第一篇比较正经的博客呢。简要讲一下非常重要的Git。一开始TTfish接触git的时候，TTfish是拒绝的，虽然现在已经离不开它了本文涉及Git的操作非常的浅，具体官方文档请移步 <a href="https://git-scm.com/">Git-scm</a> 。TTfish写这篇文章只是想记录一下TTfish踩过的坑，并且起到学习巩固的作用 关于git的源码\协议\客户端hook 这里不进行讨论</p><p><img src="/2018/03/07/git/git.jpg"></p><p>本文包括以下内容：</p><blockquote><ul><li>什么是Git</li><li>git的作用</li><li>本地使用git</li><li>设置远程git仓库</li><li>TTfish踩过的坑</li></ul></blockquote><a id="more"></a><hr><h2 id="What-is-Git"><a href="#What-is-Git" class="headerlink" title="What is Git"></a>What is Git</h2><p>2005年Linus以GPL发布了一款分布式版本控制软件，取名为Git，该词源自英国俚语，意思是……目的是为了更好的管理Linux内核版本开发。emmmm，其实应该追溯到2002年以前，那时候以前全球对于Linux的版本（diff）开发都是由Linus本人进行手工修改的，随着工程量的增大，Linux逐渐Handle不了这么多版本修改了，于是Linus转向了（<s>万恶的商业公司</s>）BitMover公司慷慨的授权Linux社区免费使用Bitkeeper这个版本控制系统。然而…然而…在Linux社区里开发Samba的Andrew写了个程序，尝试连接BitKeeper的存储库，还被发现了。BitKeeper拥有者认为安德鲁·垂鸠破坏了使用协议，决定收回Linux社区无偿使用BitKeeper的授权。于是Linus做了一件大事，闭关两周（不到），用C语言写了一个Git出来。2008年Github上线<s>成为全球最大同性交友网站（大雾）</s></p><p>以下是git十周年访谈时Linux接受采访的内容：</p><blockquote><p>Torvalds：我从来没有想过去做版本控制软件，因为在我看来那是计算机世界里最无聊的事了（如果数据库除外的话 ;^），我天生就不喜欢 SCM。但是 BitKeeper 的诞生改变了我对版本控制的认识。BK 在大多数方面是正确的，在本地保存一个仓库的副本，分布式合并确实是一大创新。这个分布式版本控制的创新完美地解决了 SCM 的通病：“谁可以修改代码”的难题。BK 告诉我们，你只要给每个人一个仓库，问题就解决了。但是 BK 也存在一些问题，技术上的问题（例如重命名很麻烦）还不算什么，它最大的坏处是不开源，很多人因为这个不使用它。所以即使我们有几个核心维护者使用 BK——开源项目可以免费使用——但它也没有普及。虽然它帮助过我们开发内核，但依然有不少痛点没有解决。</p></blockquote><blockquote><p>当 Tridge 违反 BK 的使用协议反编译 BK 的时候，我们到达了紧急关头。我花了几个周（还是几个月来着？）试图调解 Tridge 和 Larry McVoy（注：他是 Bitkeeper 的 老大），最后也没有成功。我意识到我不能继续使用 BK 了，但我真的不想回到没有 BK 的黑暗时代。遗憾的是，我们想用其他 SCM 来代替它，却没有找到能在远程方面工作得好的。现有的软件不能满足我对远程方面的需求，我又担心整个流程和代码的完整性，所以最后我决定自己写一个。</p></blockquote><hr><h2 id="Git的作用"><a href="#Git的作用" class="headerlink" title="Git的作用"></a>Git的作用</h2><p>Git是优秀的版本控制工具，采用了分布式版本库的作法，不需要服务器端软件，就可以运作版本控制，且速度极快。对于大型项目的分工开发有非常大的作用。Git提供的history 版本回退功能；merge request功能等等都给多线开发提供很大的便利</p><h2 id="How-to-use-Git"><a href="#How-to-use-Git" class="headerlink" title="How to use Git"></a>How to use Git</h2><blockquote><p>看文档只能帮助一小部分的学习，实地操作才能初步掌握了git的基本操作<br><s>明明是TTfish太菜</s><br>最简易的操作如下:</p></blockquote><h3 id="Download-Git"><a href="#Download-Git" class="headerlink" title="@Download Git"></a>@Download Git</h3><p>Download Git on official website for free. 自行安装即可 </p><h4><a href="http://msysgit.github.io/">Msysgit</a></h4><p></p><p>###@创建本地git仓库</p><p>首先在工程文件夹中运行终端，Windows可以选择右键<code>git bash here</code> || 摁住shift+右键 <code>运行新的powershell窗口</code> || 运行<code>cmd</code> 或者<code>wsl</code> 都可以</p><p>在终端中，如果没有建立本地git仓库，运行git指令会报错：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">fatal: Not a git repository (or any of the parent directories): .git</span><br></pre></td></tr></table></figure></p><p>于是先创建git本地库：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git init</span><br></pre></td></tr></table></figure><p>创建完git仓库以后 显示：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Initialized empty Git repository <span class="keyword">in</span> C:/Users/***/****/****/.git/</span><br></pre></td></tr></table></figure></p><p>会有一个隐藏文件夹 .git被创立，这就是本地git仓库</p><p>###@File Version Management</p><p>git仓库建立以后，就可以进行版本管理和分支操作了，首先默认进入的是master分支，如果是<code>git bash</code>打开的话那么在文件夹的右边会有显示当前分支，看一下git目前的状态：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git status</span><br></pre></td></tr></table></figure><p>查看当前git仓库的状态，举一个简单的例子 ，当前文件夹<code>C/</code>中只有<code>test.c</code>一个文件，初始了git仓库以后应该将需要管理版本的文件add进仓库，于是在终端输入：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git add test.c</span><br></pre></td></tr></table></figure><p>这样就成功将<code>test.c</code>添加到本地git仓库，现在可以轻松追踪管理这个文件的历史版本</p><p>这时再一次输入<code>git status</code>，就可以愉快的发现，git显示：<code>Changed files</code> 和 <code>no commits yet</code> 意思是”对文件有了修改，但是并没有确认修改” 于是我们应该 “commit change”，告诉git：我已经<em>确定</em>对该文件进行修改<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git commit</span><br></pre></td></tr></table></figure></p><p>这时候出现了一个vim窗口，具体vim的操作在这里不是很想赘述 <a href="https://github.com/vim/vim">Vim</a><br>Press ‘i’ 进入insert模式，然后在第一行输入本次commit的记录<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">add test.c</span><br></pre></td></tr></table></figure></p><p>然后 <i class="icon-share"></i> press <code>ESC</code> 输入 <code>:wq</code>  <i class="icon-share"></i>press <code>Enter</code>（表示vim使用完毕并且write+quit）</p><p>正常情况就成功添加了一个commit（一个History可回退的节点）.</p><p>此时再次输入<code>git status</code>检查状态 可以发现在终端显示：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">On branch master</span><br><span class="line">nothing to commit，working tree clean</span><br></pre></td></tr></table></figure></p><p>对于一个文件的操作基本就是这样了</p><blockquote><p><strong>*补 充</strong></p><blockquote><ul><li>一般会使用<code>git add .</code>来表示将文件夹中所有文件（<strong> 写入gitignore的文件除外</strong>）加入git仓库 </li><li>使用<code>git commit -a</code>来作为<code>git commit --all</code>的操作<br>(git有许许多多的命令和参数 参考官方文档可以获得最佳体验)</li></ul></blockquote></blockquote><p>###@Branch Management</p><p>一般在上线的工程中，master分支并不是被直接被修改的（<s>防止push a lot of bugs的事情发生</s>），于是创建分支（branch）十分的必要，在修改代码的时候在分支中修改，需要上线的修改可以使用<code>merge</code>这强大功能实现 </p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git checkout -b TTfish</span><br></pre></td></tr></table></figure><p>终端会显示：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Switched to a new branch <span class="string">'TTfish'</span></span><br></pre></td></tr></table></figure></p><p>这个命令是在master分支创建一个TTfish分支，checkout有许多黑魔法，比如可以远程链接track设定的remote git仓库（详见下文），还可以在history中找回文件（即使被<code>rm - rf</code>了的）<br>如果想回到<code>master</code>分支 就输入：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git checkout master</span><br></pre></td></tr></table></figure></p><p>这样在branch里操作更改代码后，可以merge到主干分支中，也可以在一群commits里<code>git rebase -i</code>一下，而<code>git fetch</code>则是保持和主干的一致 这里不多讲了 当然，要是想删除过去的黑历史，可以使用<code>reset HEAD~X</code>(不推荐使用…直接去github的history去找commit不就好了)</p><p>关于本地的git就讲这么多，具体还是多看官方文档 <a href="https://git-scm.com/docs">Git</a></p><p>TTfish都写完了 忽然断了网 远程仓库以后的都要重写一遍 真的是 无语了…</p><h2 id="Remote-git"><a href="#Remote-git" class="headerlink" title="Remote git"></a>Remote git</h2><p>这部分是TTfish踩坑最多的地方，稍有不慎就掉进去了，虽然现在回顾一下也不是很烦，但是踩坑确实花了我一周左右（Linus都快写完一个git了）本地文件为了能和别人分享，于是需要将git push到远程仓库，这样就实现了共享 并为分布工作提供便利</p><h3 id="Simple-git-config"><a href="#Simple-git-config" class="headerlink" title="@Simple git config"></a>@Simple git config</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git remote -v</span><br></pre></td></tr></table></figure><p>查看远程git状态，当然什么都不设置的话是什么都不会显示的 于是先配置一下用户名和邮箱 以便git管理commit的时候可以知道是谁进行的操作(这个其实应该是刚下载的时候就要配置的吧)<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name <span class="string">"****"</span></span><br><span class="line">$ git config --global user.email ****@****.com</span><br></pre></td></tr></table></figure></p><h3 id="Set-remote-git"><a href="#Set-remote-git" class="headerlink" title="@ Set remote git"></a>@ Set remote git</h3><p>首先配置remote 接口 TTfish花了一整天才理解命令的意义：<br>举GitHub的例子进行设置最简易的remote git仓库<br>打开GitHub 新建respository 点击Clone or Downloads<br>就可以查看<code>SSH</code>或<code>HTTPS</code>的两个地址 先讲简单的<code>HTTPS</code>：<br>打开本地文件夹 运行终端<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git remote add origin https://github.com/***/***.git</span><br></pre></td></tr></table></figure></p><p>这里的意思是 设置远程github的git respository的本地接口 origin为远程的分支（TTfish理解为接口） 对于远程的操作 需要通过<code>origin</code>进行操作 <code>origin</code>可以替换为任意字符串</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git push -u origin master</span><br></pre></td></tr></table></figure><p>这里的意思是 将本地的分支<code>push</code>到远程的<code>master</code>分支（<code>-u</code>的意思是如果没有则创建分支）<br>当然 <code>master</code>和<code>origin</code>都可以自己设置 <code>origin</code>必须和之前设置的字符串相同<br>这样就成功push上去了 <code>-f</code>这个暴力的指令最好少用 虽然TTfish经常用…</p><p>这里有一个坑 就是GitHub的新建respository可以选择是否新建README.md 如果新建的话 就需要先<code>git pull origin（****） master（****）</code>把README.md合并到本地 不然的话 会因为两个仓库完全不同而拒绝push请求 </p><p>至于解决方法 有很多：</p><blockquote><p>1、友好型 ：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git pull origin master</span><br></pre></td></tr></table></figure></p></blockquote><p>将远程的文件先并入本地git仓库 然后commit以后进行正确操作</p><blockquote><p>2、暴力型 ：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git push -f origin master</span><br></pre></td></tr></table></figure></p></blockquote><p>这个TTfish经常使用（逃）但是缺点是 远程的文件会被覆盖（一般是一个README.md,TTfish不是很在意）<br>其他例如clone下来并commit·push的操作就不多说了</p><p>至于<code>set upstream</code>的操作 就是为了方便之后的操作而设定的一个默认配置</p><h3 id="Remote-operate"><a href="#Remote-operate" class="headerlink" title="@ Remote operate"></a>@ Remote operate</h3><p>对于远程仓库的操作还有许多：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git remote rename &lt;name&gt;</span><br><span class="line">git fetch &lt;filename&gt;</span><br><span class="line">git remote show origin</span><br><span class="line">git remote rm origin(****)</span><br></pre></td></tr></table></figure></p><p>以上分别是：<br>重命名 得到文件 显示远程仓库详细知识 删除远程仓库链接（*常用）</p><p>好累 有什么要补的下次再说吧<br>最重要的命令还有一个：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> ********.git</span><br></pre></td></tr></table></figure></p><p>下载别人或者自己的git文件（完整的） 别忘记clone下来的js文件需要<code>npm install</code> 最近一直健忘…</p><p>好像没什么了 看完了这篇文章 最简易的远程仓库建立应该没有问题了 网上的博客看了很多 但是在我入门的时候确实没有很能见清楚（<s>搞得好像你讲的很清楚一样….</s>）希望能帮到自己和别人 咔咔</p><p>最后的官方链接： <a href="https://git-scm.com">https://git-scm.com</a></p><p><img src="/2018/03/07/git/pop.gif"></p><h2 id="对于-gitignore的补充"><a href="#对于-gitignore的补充" class="headerlink" title="对于.gitignore的补充"></a>对于.gitignore的补充</h2><p>如果在面临一个大项目 使用了webpack或者安装了新的依赖以后 git的commit提示栏会瞬间飙上去 或者 。<br>我们并不希望将一些测试时的依赖包打包在我们写好的文件中 一般会创建一个.gitignore文件 在文件中填入不希望放入git监视的文件 在commit和push的时候 会自动忽略</p><p>例<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ vim .gitignore</span><br><span class="line"></span><br><span class="line">&gt; node_modules</span><br></pre></td></tr></table></figure></p><p>这样就是将当前目录的node_modules给ignore了 .gitignore支持正则搜索</p><p>另外 对于已经存在于git仓库中的文件 如果再在.gitignore中添加 并不能删除原版本 需要输入<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git rm --cached *** // 删除git仓库中的***</span><br></pre></td></tr></table></figure></p><p>ps.下次写blog 再也不要忘记即时保存！！！！</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;A-Brief-Summary-For-Git-Use&quot;&gt;&lt;a href=&quot;#A-Brief-Summary-For-Git-Use&quot; class=&quot;headerlink&quot; title=&quot;A Brief Summary For Git Use&quot;&gt;&lt;/a&gt;A Brief Summary For Git Use&lt;/h1&gt;&lt;hr&gt;
-&lt;p&gt;TTfish的第一篇比较正经的博客呢。简要讲一下非常重要的Git。一开始TTfish接触git的时候，TTfish是拒绝的，虽然现在已经离不开它了本文涉及Git的操作非常的浅，具体官方文档请移步 &lt;a href=&quot;https://git-scm.com/&quot;&gt;Git-scm&lt;/a&gt; 。TTfish写这篇文章只是想记录一下TTfish踩过的坑，并且起到学习巩固的作用 关于git的源码\协议\客户端hook 这里不进行讨论&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/2018/03/07/git/git.jpg&quot;&gt;&lt;/p&gt;
-&lt;p&gt;本文包括以下内容：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;什么是Git&lt;/li&gt;
-&lt;li&gt;git的作用&lt;/li&gt;
-&lt;li&gt;本地使用git&lt;/li&gt;
-&lt;li&gt;设置远程git仓库&lt;/li&gt;
-&lt;li&gt;TTfish踩过的坑&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-    
-    </summary>
-    
-    
-      <category term="Tech" scheme="http://yoursite.com/tags/Tech/"/>
-    
-      <category term="Git" scheme="http://yoursite.com/tags/Git/"/>
+      <category term="Markdown" scheme="http://yoursite.com/tags/Markdown/"/>
     
   </entry>
   
