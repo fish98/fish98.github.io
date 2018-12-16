@@ -340,9 +340,9 @@
     
       <category term="Tech" scheme="http://yoursite.com/tags/Tech/"/>
     
-      <category term="Review" scheme="http://yoursite.com/tags/Review/"/>
-    
       <category term="SCT" scheme="http://yoursite.com/tags/SCT/"/>
+    
+      <category term="Review" scheme="http://yoursite.com/tags/Review/"/>
     
   </entry>
   
