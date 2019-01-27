@@ -399,9 +399,9 @@
     
       <category term="Tech" scheme="http://yoursite.com/tags/Tech/"/>
     
-      <category term="Stack" scheme="http://yoursite.com/tags/Stack/"/>
-    
       <category term="Node" scheme="http://yoursite.com/tags/Node/"/>
+    
+      <category term="Stack" scheme="http://yoursite.com/tags/Stack/"/>
     
   </entry>
   
@@ -439,9 +439,9 @@
     
       <category term="Tech" scheme="http://yoursite.com/tags/Tech/"/>
     
-      <category term="Stack" scheme="http://yoursite.com/tags/Stack/"/>
-    
       <category term="Node" scheme="http://yoursite.com/tags/Node/"/>
+    
+      <category term="Stack" scheme="http://yoursite.com/tags/Stack/"/>
     
   </entry>
   
