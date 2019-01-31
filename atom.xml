@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-01-28T17:06:34.791Z</updated>
+  <updated>2019-01-31T07:21:51.206Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,50 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>冴えない彼女の育てかた小説(電子書)</title>
+    <link href="http://yoursite.com/2019/01/31/%E5%86%B4%E3%81%88%E3%81%AA%E3%81%84%E5%BD%BC%E5%A5%B3%E3%81%AE%E8%82%B2%E3%81%A6%E3%81%8B%E3%81%9F/"/>
+    <id>http://yoursite.com/2019/01/31/冴えない彼女の育てかた/</id>
+    <published>2019-01-31T07:10:41.000Z</published>
+    <updated>2019-01-31T07:21:51.206Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/crypto-js.js"></script><script src="/mcommon.js"></script><h3 id="encrypt-message">「俺の名前は何ですか？」</h3><link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css"> <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script> <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> <div id="security"> <div> <div class="input-group"> <input type="text" class="form-control" aria-label="Enter the password." id="pass"/> <div class="input-group-btn"> <button type="button" class="btn btn-default" onclick="decryptAES()">Decrypt</button> </div> </div> </div> </div> <div id="encrypt-blog" style="display:none"> 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 </div>]]></content>
+    
+    <summary type="html">
+    
+      「Encrypted_Blog」
+    
+    </summary>
+    
+    
+      <category term="light novel" scheme="http://yoursite.com/tags/light-novel/"/>
+    
+      <category term="Japanese" scheme="http://yoursite.com/tags/Japanese/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>やはり俺の青春ラブコメはまちがっている(電子書)</title>
+    <link href="http://yoursite.com/2019/01/31/%E4%BF%BA%E3%81%AE%E9%9D%92%E6%98%A5%E3%83%A9%E3%83%96%E3%82%B3%E3%83%A1/"/>
+    <id>http://yoursite.com/2019/01/31/俺の青春ラブコメ/</id>
+    <published>2019-01-31T07:10:41.000Z</published>
+    <updated>2019-01-31T07:32:12.590Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/crypto-js.js"></script><script src="/mcommon.js"></script><h3 id="encrypt-message">「俺の名前は何ですか？」</h3><link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css"> <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script> <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> <div id="security"> <div> <div class="input-group"> <input type="text" class="form-control" aria-label="Enter the password." id="pass"/> <div class="input-group-btn"> <button type="button" class="btn btn-default" onclick="decryptAES()">Decrypt</button> </div> </div> </div> </div> <div id="encrypt-blog" style="display:none"> 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 </div>]]></content>
+    
+    <summary type="html">
+    
+      「Encrypted_Blog」
+    
+    </summary>
+    
+    
+      <category term="light novel" scheme="http://yoursite.com/tags/light-novel/"/>
+    
+      <category term="Japanese" scheme="http://yoursite.com/tags/Japanese/"/>
+    
+  </entry>
   
   <entry>
     <title>日本語の文法——補助語</title>
@@ -522,66 +566,6 @@
       <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
     
       <category term="SCT" scheme="http://yoursite.com/tags/SCT/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>NodeSpider2</title>
-    <link href="http://yoursite.com/2018/04/11/NodeSpider2/"/>
-    <id>http://yoursite.com/2018/04/11/NodeSpider2/</id>
-    <published>2018-04-11T14:27:54.000Z</published>
-    <updated>2019-01-23T22:04:58.675Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="Node-Spider-Finish-！！！"><a href="#Node-Spider-Finish-！！！" class="headerlink" title="Node Spider Finish ！！！"></a>Node Spider Finish ！！！</h1><p>Source Code: <a href="https://github.com/fish98/NodeSpider_classrooms">https://github.com/fish98/NodeSpider_classrooms</a></p><p>对于这次工程的反思 最大问题的就是对于纯函数的使用缺失 在工程实现的一开始 使用了太多的全局变量 导致在最后的调试和函数合并的时候出现了一些不优雅的地方 这以后一定要改 函数尽量写成纯函数 或者科里化 </p><p>本次主要延续上一次的话题 稍微深入的扯几句</p><p><img src="/2018/04/11/NodeSpider2/promise.png"></p><a id="more"></a><hr><p>上次讲到最简单的爬虫 因为爬虫就是对于网站的请求 处理返回response和解析数据 那么 第一步的请求还是很重要的 像<a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch">Fetch</a>这样的钦定API就非常推荐使用 具体使用参见官方文档 不加赘述 而对于<a href="https://developer.mozilla.org/en-US/docs/Web/API/Request">Request</a> 与Fetch之间的互相调用 两者都是web内置的模块 在node.js中使用还是需要import </p><h2 id="Promise"><a href="#Promise" class="headerlink" title="Promise"></a>Promise</h2><p>这个是个重点 非常的重要 对于Promise对象的调用 可以调用Promise.all()来维护一个队列</p><h2 id="拓展-对于用户验证FormData的教务网体验"><a href="#拓展-对于用户验证FormData的教务网体验" class="headerlink" title="拓展: 对于用户验证FormData的教务网体验"></a>拓展: 对于用户验证FormData的教务网体验</h2><h2 id="拓展-对于用户登陆的Cookie的Piviv的尝试"><a href="#拓展-对于用户登陆的Cookie的Piviv的尝试" class="headerlink" title="拓展: 对于用户登陆的Cookie的Piviv的尝试"></a>拓展: 对于用户登陆的Cookie的Piviv的尝试</h2><h2 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h2><p>对于工程上的爬虫 实在是应该做成分布式的 或者多线程 添加算法来提高速度 以上对于Node简单的尝试只是小打小闹 之后的博客 会尝试分布式爬虫 或者更大规模的试验 还有就是对于反爬虫的应对(ip封禁等等)</p><p><img src="/2018/04/11/NodeSpider2/ruri.gif"></p><p>以上 </p><p>玩的开心</p><p>说好的更新呢 ？这么几个字糊弄谁啊 ？!</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;Node-Spider-Finish-！！！&quot;&gt;&lt;a href=&quot;#Node-Spider-Finish-！！！&quot; class=&quot;headerlink&quot; title=&quot;Node Spider Finish ！！！&quot;&gt;&lt;/a&gt;Node Spider Finish ！！！&lt;/h1&gt;&lt;p&gt;Source Code: &lt;a href=&quot;https://github.com/fish98/NodeSpider_classrooms&quot;&gt;https://github.com/fish98/NodeSpider_classrooms&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;对于这次工程的反思 最大问题的就是对于纯函数的使用缺失 在工程实现的一开始 使用了太多的全局变量 导致在最后的调试和函数合并的时候出现了一些不优雅的地方 这以后一定要改 函数尽量写成纯函数 或者科里化 &lt;/p&gt;
-&lt;p&gt;本次主要延续上一次的话题 稍微深入的扯几句&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/2018/04/11/NodeSpider2/promise.png&quot;&gt;&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="Tech" scheme="http://yoursite.com/tags/Tech/"/>
-    
-      <category term="Node" scheme="http://yoursite.com/tags/Node/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Basic Node.js (Node Spider1)</title>
-    <link href="http://yoursite.com/2018/04/06/NodeSpider/"/>
-    <id>http://yoursite.com/2018/04/06/NodeSpider/</id>
-    <published>2018-04-06T07:24:18.000Z</published>
-    <updated>2019-01-23T22:04:58.675Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="Node的基础与Node-jsの爬虫-上"><a href="#Node的基础与Node-jsの爬虫-上" class="headerlink" title="Node的基础与Node.jsの爬虫(上)"></a>Node的基础与<s>Node.jsの爬虫(上)</s></h1><hr><p>说到爬虫，一般会先想到<a href="https://scrapy.org/">Scarpy</a>或者<a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/">BeautifulSoup</a>这样的python库 但是 当工程量比较小的时候 不需要像Scarpy这样的企业级分布式爬虫的时候 虽然TTfish非常的咸鱼 身为前端工程师 还是用Nodejs比较舒服(才没有表扬Node呢 口亨) 这篇blog主要总结一下之前的经验 尤其是对于学校教务网的探索心得(逃)</p><p><img src="/2018/04/06/NodeSpider/nodejs.png"></p><p>本文包括以下内容：</p><blockquote><ul><li>Nodejs的使用</li><li>NPM的简易操作</li><li>Node爬虫</li><li>Fetch 和 Promise请求队列</li><li>万恶的教务网!</li></ul></blockquote><p>TTfish自己都没想到会有这么多要写 一篇根本写不完 要不还是分开写吧….</p><a id="more"></a><hr><h1 id="Node-js"><a href="#Node-js" class="headerlink" title="Node.js"></a>Node.js</h1><p><a href="https://nodejs.org/en/docs/">Node.js</a>是一个基于 Chrome V8 引擎的 JavaScript 运行环境 Javasrcipt是一门动态类型，面向对象的解释型语言 和Java有相似之处 但是还是有很多的区别(明明叫Livescript 为了蹭Java热度才改的名) 人们发现将它即时编译有非常大的应用前景 于是就有了Node.js这样的前后端兼吃的环境 Node.js不支持多线程(<s>不像Python那样的假多线程</s>) 但是它是非阻塞的 支持并发(<s>不像世界上最好的语言</s>) 它是事件驱动的 带有优秀的npm 包管理器</p><p>要用Node.js写爬虫 首先得有node环境 </p><p><a href="https://nodejs.org/en/download/package-manager/">Download Node.js</a> 根据不同的操作系统下载并安装Node.js </p><p>安装好以后 无论在<code>Terminal / Konsole</code> 还是在 <code>cmd \ powershell</code>(可能需要允许环境变量) 中 都可以运行Node.js了</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ node -v // 查看版本</span><br><span class="line">$ node   //运行node</span><br><span class="line">&gt; console.log(<span class="string">"hello ttfish!"</span>)  //相当于在Chrome里的Console状态</span><br></pre></td></tr></table></figure><p>简单的完成了<code>hello ttfish</code>的打印 如果需要用node执行以.js结尾的文件 只需要<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ node ttfish.js</span><br></pre></td></tr></table></figure></p><p>这样简单的node环境就搭建完成了 一般会用server来实现nodejs的<code>hello world</code> 这里跳过</p><h2 id="NPM的简易使用"><a href="#NPM的简易使用" class="headerlink" title="NPM的简易使用"></a>NPM的简易使用</h2><p><a href="https://www.npmjs.com/">NPM</a>(Node Package Manager)是Node.js的包管理库 方便模块管理 就像PEAR-&gt;PHP一样的概念</p><p>下载Node的时候 其实已经把npm装好了 可以输入<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm -v // 查看版本</span><br></pre></td></tr></table></figure></p><p><img src="/2018/04/06/NodeSpider/kirino.gif"></p><p>对于npm最多的操作 就是<code>npm install</code>安装包 并在<code>js</code>文件中引用 但是 首先应该先初始化npm并生成<code>package.json</code> <strong><em> 这个是个坑 </em></strong> npm会根据package.json配置安装项 优秀的开源工程一般都只需要在<code>git clone</code>以后 一键<code>npm install</code>就安装完成所有的所需项 (就速度而言 推荐设置淘宝源)</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$npm</span> init // 初始化 生成package.json  // 请认真填写！！ 不然会凉</span><br></pre></td></tr></table></figure><p>正常的话 会发现多了package.json文件 默认情况下 npm install的文件会保存在node_modules文件夹中</p><p>Node爬虫需要引入的包有许多 先写一个最简单的 ： </p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ vim ttfish.js</span><br></pre></td></tr></table></figure><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ npm install cheerio // 一个自认为长的像jQuery就很厉害 其实比jQuery还猥琐的库 解析html作用</span><br><span class="line">$ npm install fetch  // 处理http请求</span><br></pre></td></tr></table></figure><p>(关于 -save和–save-dev的区别 请注意)</p><p>使用Fetch 简要的爬取zhihu首页html</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> cheerio = <span class="built_in">require</span>(<span class="string">'cheerio'</span>)</span><br><span class="line"><span class="keyword">const</span> fetch = <span class="built_in">require</span>(<span class="string">'node-fetch'</span>)</span><br><span class="line"><span class="keyword">const</span> url = <span class="string">'https://www.zhihu.com'</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 箭头函数的使用 还有好多能加的参数 具体参考官方文档 </span></span><br><span class="line"></span><br><span class="line">fetch(url， &#123;</span><br><span class="line">  method: POST,</span><br><span class="line">  header: &#123;</span><br><span class="line">    <span class="comment">// some Headers</span></span><br><span class="line">    &#125;</span><br><span class="line">  body: <span class="comment">// 假装有body</span></span><br><span class="line">    &#125;)</span><br><span class="line">  .then(<span class="function"><span class="params">res</span> =&gt;</span> res.text()) </span><br><span class="line">  .then(<span class="function"><span class="params">body</span> =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">let</span> $ = cheerio.load(body)  <span class="comment">// 这里开始迷之cheerio 蜜汁jQuery既视感</span></span><br><span class="line">    $(<span class="string">'***'</span>).map(<span class="function">(<span class="params">i, item</span>) =&gt;</span> &#123;  <span class="comment">// 这里必须吐槽 这个map居然是需要将index作为第一个参数传入的！震惊.jpg</span></span><br><span class="line">    <span class="comment">// 假装要提取DOM元素进行操作</span></span><br><span class="line">    &#125;</span><br><span class="line">  &#125;)</span><br><span class="line"><span class="comment">// 以上只是框架 具体代码可以在我的Github上寻找</span></span><br></pre></td></tr></table></figure><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ node ttfish.js //运行即可</span><br></pre></td></tr></table></figure><p><a href="https://github.com/fish98/Spider">Github 源码</a></p><h3 id="笔记"><a href="#笔记" class="headerlink" title="笔记"></a>笔记</h3><p>向对象添加键值对的方法： A[b] = C  —踩坑已久<br>删除对象键值对： delete D.e<br>map forEach对于数组的操作 不作用于对象<br>对于FormData的append 不适用于一般对象</p><h2 id="假的小结"><a href="#假的小结" class="headerlink" title="假的小结"></a>假的小结</h2><p>先讲到这里吧 写不动 写不动 至少最简单的内模块Fetch可以使用了 当然 SuperAgent库也是没有问题的 爬虫的本质就是向服务端发送请求并对Response进行解析 Node.js写爬虫其实不是很稳 虽然写的爽 但是用起来不是很优雅 之前跑了3000张图片流爬虫 如果全部异步node就会炸 维持10个一组的队列勉勉强强跑了六组跑完了 感觉这样在python的情况下可能会更舒服 等下次再写Promise队列和教务网的爬虫 Promise真是个好东西 hhhh</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;Node的基础与Node-jsの爬虫-上&quot;&gt;&lt;a href=&quot;#Node的基础与Node-jsの爬虫-上&quot; class=&quot;headerlink&quot; title=&quot;Node的基础与Node.jsの爬虫(上)&quot;&gt;&lt;/a&gt;Node的基础与&lt;s&gt;Node.jsの爬虫(上)&lt;/s&gt;&lt;/h1&gt;&lt;hr&gt;
-&lt;p&gt;说到爬虫，一般会先想到&lt;a href=&quot;https://scrapy.org/&quot;&gt;Scarpy&lt;/a&gt;或者&lt;a href=&quot;https://www.crummy.com/software/BeautifulSoup/bs4/doc/&quot;&gt;BeautifulSoup&lt;/a&gt;这样的python库 但是 当工程量比较小的时候 不需要像Scarpy这样的企业级分布式爬虫的时候 虽然TTfish非常的咸鱼 身为前端工程师 还是用Nodejs比较舒服(才没有表扬Node呢 口亨) 这篇blog主要总结一下之前的经验 尤其是对于学校教务网的探索心得(逃)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/2018/04/06/NodeSpider/nodejs.png&quot;&gt;&lt;/p&gt;
-&lt;p&gt;本文包括以下内容：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;Nodejs的使用&lt;/li&gt;
-&lt;li&gt;NPM的简易操作&lt;/li&gt;
-&lt;li&gt;Node爬虫&lt;/li&gt;
-&lt;li&gt;Fetch 和 Promise请求队列&lt;/li&gt;
-&lt;li&gt;万恶的教务网!&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;TTfish自己都没想到会有这么多要写 一篇根本写不完 要不还是分开写吧….&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="Tech" scheme="http://yoursite.com/tags/Tech/"/>
-    
-      <category term="Node" scheme="http://yoursite.com/tags/Node/"/>
     
   </entry>
   
