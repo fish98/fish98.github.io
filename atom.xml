@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-08-22T08:13:55.718Z</updated>
+  <updated>2019-08-23T07:51:04.930Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Struggle with Renpy Development</title>
+    <link href="http://yoursite.com/2019/08/23/renpy/"/>
+    <id>http://yoursite.com/2019/08/23/renpy/</id>
+    <published>2019-08-23T07:06:27.000Z</published>
+    <updated>2019-08-23T07:51:04.930Z</updated>
+    
+    <content type="html"><![CDATA[<p>简要总结一下renpy官方文档中没有或者很难找到的重要</p><a id="more"></a>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;简要总结一下renpy官方文档中没有或者很难找到的重要&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Tech" scheme="http://yoursite.com/tags/Tech/"/>
+    
+      <category term="Python" scheme="http://yoursite.com/tags/Python/"/>
+    
+      <category term="Renpy" scheme="http://yoursite.com/tags/Renpy/"/>
+    
+  </entry>
   
   <entry>
     <title>Outline for PhysicsChemistry(ZJU)(物理化学期末考试重点)</title>
@@ -102,9 +126,9 @@
     <link href="http://yoursite.com/2018/11/14/physics/"/>
     <id>http://yoursite.com/2018/11/14/physics/</id>
     <published>2018-11-14T05:56:13.000Z</published>
-    <updated>2019-08-22T08:12:07.486Z</updated>
+    <updated>2019-08-23T07:44:33.204Z</updated>
     
-    <content type="html"><![CDATA[<ul><li>Physics(A) Ⅱ Mid-Term – Electromagnetism</li><li>Maxwell’s equations &amp;&amp; ε0 μ0 relationship</li><li>明天就加上薛定谔方程！(鸽子)</li></ul><p>すぐに試験に行くつもりですね　魚はちゃんと勉強しなければならないだ～～</p><a id="more"></a><hr><h3 id="General-Concept"><a href="#General-Concept" class="headerlink" title="General Concept"></a>General Concept</h3><blockquote><p>麦克斯韦方程组</p></blockquote><ol><li>$$\int_l \cdot dl = \int_sJ \cdot ds + \int_s \frac{\partial D}{\partial t}\cdot ds$$</li></ol><p>$$ \nabla \times H = J + \frac{\partial D}{\partial t}$$ </p><p>磁场强度H沿任意闭合曲线的线积分，等于穿过此曲线限定面积的全电流</p><ol><li>$$E \cdot dl = - \frac{d}{dt}\int_SB \cdot ds$$</li></ol><p>$$\nabla \times E = -\frac{\partial B}{\partial t}$$<br>电场强度E沿任意闭合曲线的线积分等于穿过由该曲线所限定面积的磁通对时间的变化率的负值</p><ol><li><p>$$\int_S B \cdot ds = 0$$<br>$$\nabla \cdot B = 0$$<br>对于任意一个闭合曲面，有多少磁通进入曲面就有同样数量的磁通离开</p></li><li><p>$$D \cdot ds = \int_S \rho dv$$<br>$$\nabla \cdot D = \rho$$<br>在时变的条件下，从任意一个闭合曲面出来的D的净通量，应等于该闭曲面所包围的体积内全部自由电荷之总和</p></li></ol><blockquote><p>根据麦克斯韦方程组推测 电磁波以光速传播</p></blockquote><p>然后对真空磁导率进行定义 : 1948年 单位长度的安培力</p><p>$$|F_m| = \frac{\mu_0}{2\pi} \frac{|I|^2}{|r|}$$</p><p>求得</p><p>$$\mu_0 = 4\pi \times 10^{-7} (N/A^2)\approx 1.2566 \times 10^{-6}(N/A^2)$$</p><blockquote><p>真空介电常数与其它物理常数的关系</p></blockquote><p>$$\epsilon_0 = \frac{1}{\mu_0 c^2}$$</p><p>于是求得真空介电常数</p><p>$$\epsilon_0 = 8.854 \times 10^{-12}F/M$$</p><blockquote><p>库仑定律中k的替换</p></blockquote><p>$$ k = 8.99 \times 10^8N \cdot m^2 / C^2 $$<br>取 $ k = \frac{1}{4\pi\epsilon_0}$ 得<br>$$ \epsilon_0 = \frac{1}{4\pi k} = 8.85 \times 10^{-12} C^2 / (N \cdot m^2)$$</p><h3 id="场强的计算"><a href="#场强的计算" class="headerlink" title="场强的计算"></a>场强的计算</h3><p>$$ \vec E = \frac {\vec F}{q_0} \tag{定义式} $$</p><p>$$ \vec E = \frac {1}{4\pi\epsilon_0} \frac{q}{r^2} \hat r \tag{叠加法} $$</p><p>$$ \Phi_e = \int \vec E · d\vec S = \frac{1}{\epsilon_0} \sum_{s内}{q_i}\tag{高斯法} $$</p><p>$$ \vec E = -grad U\tag{静电场的梯度} $$</p><p><img src="/2018/11/14/physics/1.png"></p><p>应用</p><ul><li>半径为R的均匀带电圆环 带电量q 竖直距离z<br>$$dE = \frac{\lambda dl}{4\pi \epsilon_0(z^2 + R^2)^{1/2}}$$<br>$$E = \frac{qz}{4\pi \epsilon_0(z^2 + R^2)^{3/2}}$$<br>拓展到一整个圆盘 就做一次积分<br>$$ E = \frac{\sigma}{2\epsilon_0}(1-\frac{z}{\sqrt{z^2 + R^2 }}) $$<br>取z非常小 得带电平面的场强为<br>$$E = \frac{\sigma}{2\epsilon_0} $$</li><li>带电直导线周围场强<br>$$E_y = \frac{\lambda}{4\pi \epsilon_0a}(cos\theta_1 - cos\theta_2)$$</li></ul><p>无限长直导线 -&gt; 圆柱<br>$$ E = \frac{\lambda}{2\pi \epsilon a}$$</p><h3 id="电势-amp-amp-静电平衡"><a href="#电势-amp-amp-静电平衡" class="headerlink" title="电势&amp;&amp;静电平衡"></a>电势&amp;&amp;静电平衡</h3><p>$$U_p = \int_P^Q E \cdot dl \tag{定义式}$$</p><p>对于一个点电荷</p><p>$$U = \frac{q}{4\pi \epsilon_0r}$$</p><p>对于均匀带电球面/金属球体</p><p>$$U = \frac{q}{4\pi \epsilon_0R} \tag{r \leq R }$$</p><p>$$U = \frac{q}{4\pi \epsilon_0r} \tag{r \geq R }$$</p><p><img src="/2018/11/14/physics/2.png"></p><p>应用</p><ul><li>直接由E积分 记得选择正确的电势0点</li></ul><p>导体内部场强为0 表面就是等势面</p><h3 id="电容-电介质"><a href="#电容-电介质" class="headerlink" title="电容 电介质"></a>电容 电介质</h3><p>$$C = \frac{Q}{U_A - U_B}$$</p><p>$$U_A - U_B = \int^{R_B}_{R_A} R \cdot dr$$</p><p>对于导体电容器</p><p>$$C = 4\pi\epsilon_0R$$</p><p>平行板电容器</p><p>$$C = \frac{\epsilon_0\epsilon_rS}{d}$$</p><p>电容器串联为各自电容的倒数求和 并联则是定容的求和</p><p>外电场作用下电介质表面出现极化电荷</p><p>$$\epsilon_r = \frac{\vec R_0}{E}$$</p><p>电介质中的高斯定理</p><p>$$\int_S D\cdot d\vec S = \sum_{S} q$$</p><p>电场的能量</p><p>$$U_e = \frac{1}{2} \frac{Q^2}{C} = \frac{1}{2}CV^2$$</p><p>$$\mu_e = \frac{1}{2}\epsilon_0\epsilon_rE^2$$</p><p>$$U_e = \int dU_e = \int_V \frac{1}{2}\epsilon_0 \epsilon_rE^2dV$$</p><p>电荷面密度的场强计算 在计算平行板电容器的作用</p><p>$$E = \frac{\sigma}{\epsilon_0}$$</p><p><strong>电介质相关题目</strong></p><p>$$\sigma = P_n$$</p><p>$$\vec D = \epsilon_o \vec E + \vec P$$</p><p>$$\vec D = \epsilon_r \epsilon_0\vec E = \epsilon \vec E$$</p><h3 id="磁场"><a href="#磁场" class="headerlink" title="磁场"></a>磁场</h3><p>长直导线</p><p>$$ B = \frac{\mu_0 I}{4\pi a}(cos\theta_1 - cos\theta_2)$$<br>$$B = \frac{\mu_0 I}{2\pi a} \tag{无限长直导线}$$</p><p><img src="/2018/11/14/physics/3.png"></p><p>载流圆线圈中的磁场</p><p>$$B = \frac{\mu_0 IR^2}{2(R^2+x^2)^{3/2}}$$</p><p>$$B = \frac{\mu_0 I}{2R} \tag{圆心磁场}$$<br>载流螺线管内磁场<br>$$B = \mu_0 nI$$</p><p><strong>无限大面电流磁场</strong></p><p>$$B = \frac{\mu j}{2}$$</p><p>磁力矩</p><p>$$\vec M = \vec P_m \times \vec B$$<br>$$\vec P_m = NIS\vec n$$</p><p>磁力做的功</p><p>$$A = I\Delta\Phi$$</p><p>磁能密度 &amp;&amp; 磁场能量</p><p>$$w_m = \frac{1}{2} B \cdot H$$<br>$$W_m = \frac{1}{2} L I^2_0 = \frac{1}{2}BHV$$</p><p>注意螺距和涡旋电流</p><p>$$\int E_i \cdot dl = - \int_S \frac{\partial B}{\partial t} \cdot dS$$</p><p>霍尔效应</p><p>$$U_H = (\frac{1}{nq})\frac{IB}{d}$$<br>$$R_H = \frac{1}{nq}$$</p><p>铁磁质的磁化规律</p><p>$$H_c \cdot dl = nI $$</p>]]></content>
+    <content type="html"><![CDATA[<ul><li>Physics(A) Ⅱ Mid-Term – Electromagnetism</li><li>Maxwell’s equations &amp;&amp; ε0 μ0 relationship</li><li>明天就加上薛定谔方程！(鸽子)</li></ul><p>試験が来た！！ 魚はちゃんと勉強しなけきゃ～～</p><a id="more"></a><hr><h3 id="General-Concept"><a href="#General-Concept" class="headerlink" title="General Concept"></a>General Concept</h3><blockquote><p>麦克斯韦方程组</p></blockquote><ol><li>$$\int_l \cdot dl = \int_sJ \cdot ds + \int_s \frac{\partial D}{\partial t}\cdot ds$$</li></ol><p>$$ \nabla \times H = J + \frac{\partial D}{\partial t}$$ </p><p>磁场强度H沿任意闭合曲线的线积分，等于穿过此曲线限定面积的全电流</p><ol><li>$$E \cdot dl = - \frac{d}{dt}\int_SB \cdot ds$$</li></ol><p>$$\nabla \times E = -\frac{\partial B}{\partial t}$$<br>电场强度E沿任意闭合曲线的线积分等于穿过由该曲线所限定面积的磁通对时间的变化率的负值</p><ol><li><p>$$\int_S B \cdot ds = 0$$<br>$$\nabla \cdot B = 0$$<br>对于任意一个闭合曲面，有多少磁通进入曲面就有同样数量的磁通离开</p></li><li><p>$$D \cdot ds = \int_S \rho dv$$<br>$$\nabla \cdot D = \rho$$<br>在时变的条件下，从任意一个闭合曲面出来的D的净通量，应等于该闭曲面所包围的体积内全部自由电荷之总和</p></li></ol><blockquote><p>根据麦克斯韦方程组推测 电磁波以光速传播</p></blockquote><p>然后对真空磁导率进行定义 : 1948年 单位长度的安培力</p><p>$$|F_m| = \frac{\mu_0}{2\pi} \frac{|I|^2}{|r|}$$</p><p>求得</p><p>$$\mu_0 = 4\pi \times 10^{-7} (N/A^2)\approx 1.2566 \times 10^{-6}(N/A^2)$$</p><blockquote><p>真空介电常数与其它物理常数的关系</p></blockquote><p>$$\epsilon_0 = \frac{1}{\mu_0 c^2}$$</p><p>于是求得真空介电常数</p><p>$$\epsilon_0 = 8.854 \times 10^{-12}F/M$$</p><blockquote><p>库仑定律中k的替换</p></blockquote><p>$$ k = 8.99 \times 10^8N \cdot m^2 / C^2 $$<br>取 $ k = \frac{1}{4\pi\epsilon_0}$ 得<br>$$ \epsilon_0 = \frac{1}{4\pi k} = 8.85 \times 10^{-12} C^2 / (N \cdot m^2)$$</p><h3 id="场强的计算"><a href="#场强的计算" class="headerlink" title="场强的计算"></a>场强的计算</h3><p>$$ \vec E = \frac {\vec F}{q_0} \tag{定义式} $$</p><p>$$ \vec E = \frac {1}{4\pi\epsilon_0} \frac{q}{r^2} \hat r \tag{叠加法} $$</p><p>$$ \Phi_e = \int \vec E · d\vec S = \frac{1}{\epsilon_0} \sum_{s内}{q_i}\tag{高斯法} $$</p><p>$$ \vec E = -grad U\tag{静电场的梯度} $$</p><p><img src="/2018/11/14/physics/1.png"></p><p>应用</p><ul><li>半径为R的均匀带电圆环 带电量q 竖直距离z<br>$$dE = \frac{\lambda dl}{4\pi \epsilon_0(z^2 + R^2)^{1/2}}$$<br>$$E = \frac{qz}{4\pi \epsilon_0(z^2 + R^2)^{3/2}}$$<br>拓展到一整个圆盘 就做一次积分<br>$$ E = \frac{\sigma}{2\epsilon_0}(1-\frac{z}{\sqrt{z^2 + R^2 }}) $$<br>取z非常小 得带电平面的场强为<br>$$E = \frac{\sigma}{2\epsilon_0} $$</li><li>带电直导线周围场强<br>$$E_y = \frac{\lambda}{4\pi \epsilon_0a}(cos\theta_1 - cos\theta_2)$$</li></ul><p>无限长直导线 -&gt; 圆柱<br>$$ E = \frac{\lambda}{2\pi \epsilon a}$$</p><h3 id="电势-amp-amp-静电平衡"><a href="#电势-amp-amp-静电平衡" class="headerlink" title="电势&amp;&amp;静电平衡"></a>电势&amp;&amp;静电平衡</h3><p>$$U_p = \int_P^Q E \cdot dl \tag{定义式}$$</p><p>对于一个点电荷</p><p>$$U = \frac{q}{4\pi \epsilon_0r}$$</p><p>对于均匀带电球面/金属球体</p><p>$$U = \frac{q}{4\pi \epsilon_0R} \tag{r \leq R }$$</p><p>$$U = \frac{q}{4\pi \epsilon_0r} \tag{r \geq R }$$</p><p><img src="/2018/11/14/physics/2.png"></p><p>应用</p><ul><li>直接由E积分 记得选择正确的电势0点</li></ul><p>导体内部场强为0 表面就是等势面</p><h3 id="电容-电介质"><a href="#电容-电介质" class="headerlink" title="电容 电介质"></a>电容 电介质</h3><p>$$C = \frac{Q}{U_A - U_B}$$</p><p>$$U_A - U_B = \int^{R_B}_{R_A} R \cdot dr$$</p><p>对于导体电容器</p><p>$$C = 4\pi\epsilon_0R$$</p><p>平行板电容器</p><p>$$C = \frac{\epsilon_0\epsilon_rS}{d}$$</p><p>电容器串联为各自电容的倒数求和 并联则是定容的求和</p><p>外电场作用下电介质表面出现极化电荷</p><p>$$\epsilon_r = \frac{\vec R_0}{E}$$</p><p>电介质中的高斯定理</p><p>$$\int_S D\cdot d\vec S = \sum_{S} q$$</p><p>电场的能量</p><p>$$U_e = \frac{1}{2} \frac{Q^2}{C} = \frac{1}{2}CV^2$$</p><p>$$\mu_e = \frac{1}{2}\epsilon_0\epsilon_rE^2$$</p><p>$$U_e = \int dU_e = \int_V \frac{1}{2}\epsilon_0 \epsilon_rE^2dV$$</p><p>电荷面密度的场强计算 在计算平行板电容器的作用</p><p>$$E = \frac{\sigma}{\epsilon_0}$$</p><p><strong>电介质相关题目</strong></p><p>$$\sigma = P_n$$</p><p>$$\vec D = \epsilon_o \vec E + \vec P$$</p><p>$$\vec D = \epsilon_r \epsilon_0\vec E = \epsilon \vec E$$</p><h3 id="磁场"><a href="#磁场" class="headerlink" title="磁场"></a>磁场</h3><p>长直导线</p><p>$$ B = \frac{\mu_0 I}{4\pi a}(cos\theta_1 - cos\theta_2)$$<br>$$B = \frac{\mu_0 I}{2\pi a} \tag{无限长直导线}$$</p><p><img src="/2018/11/14/physics/3.png"></p><p>载流圆线圈中的磁场</p><p>$$B = \frac{\mu_0 IR^2}{2(R^2+x^2)^{3/2}}$$</p><p>$$B = \frac{\mu_0 I}{2R} \tag{圆心磁场}$$<br>载流螺线管内磁场<br>$$B = \mu_0 nI$$</p><p><strong>无限大面电流磁场</strong></p><p>$$B = \frac{\mu j}{2}$$</p><p>磁力矩</p><p>$$\vec M = \vec P_m \times \vec B$$<br>$$\vec P_m = NIS\vec n$$</p><p>磁力做的功</p><p>$$A = I\Delta\Phi$$</p><p>磁能密度 &amp;&amp; 磁场能量</p><p>$$w_m = \frac{1}{2} B \cdot H$$<br>$$W_m = \frac{1}{2} L I^2_0 = \frac{1}{2}BHV$$</p><p>注意螺距和涡旋电流</p><p>$$\int E_i \cdot dl = - \int_S \frac{\partial B}{\partial t} \cdot dS$$</p><p>霍尔效应</p><p>$$U_H = (\frac{1}{nq})\frac{IB}{d}$$<br>$$R_H = \frac{1}{nq}$$</p><p>铁磁质的磁化规律</p><p>$$H_c \cdot dl = nI $$</p>]]></content>
     
     <summary type="html">
     
@@ -113,7 +137,7 @@
 &lt;li&gt;Maxwell’s equations &amp;amp;&amp;amp; ε0 μ0 relationship&lt;/li&gt;
 &lt;li&gt;明天就加上薛定谔方程！(鸽子)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;すぐに試験に行くつもりですね　魚はちゃんと勉強しなければならないだ～～&lt;/p&gt;
+&lt;p&gt;試験が来た！！ 魚はちゃんと勉強しなけきゃ～～&lt;/p&gt;
     
     </summary>
     
@@ -423,9 +447,9 @@
     
       <category term="Tech" scheme="http://yoursite.com/tags/Tech/"/>
     
-      <category term="Node" scheme="http://yoursite.com/tags/Node/"/>
-    
       <category term="Stack" scheme="http://yoursite.com/tags/Stack/"/>
+    
+      <category term="Node" scheme="http://yoursite.com/tags/Node/"/>
     
   </entry>
   
@@ -463,9 +487,9 @@
     
       <category term="Tech" scheme="http://yoursite.com/tags/Tech/"/>
     
-      <category term="Node" scheme="http://yoursite.com/tags/Node/"/>
-    
       <category term="Stack" scheme="http://yoursite.com/tags/Stack/"/>
+    
+      <category term="Node" scheme="http://yoursite.com/tags/Node/"/>
     
   </entry>
   
@@ -540,41 +564,6 @@
 &lt;p&gt;对于这次工程的反思 最大问题的就是对于纯函数的使用缺失 在工程实现的一开始 使用了太多的全局变量 导致在最后的调试和函数合并的时候出现了一些不优雅的地方 这以后一定要改 函数尽量写成纯函数 或者科里化 &lt;/p&gt;
 &lt;p&gt;本次主要延续上一次的话题 稍微深入的扯几句&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/2018/04/11/NodeSpider2/promise.png&quot;&gt;&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="Tech" scheme="http://yoursite.com/tags/Tech/"/>
-    
-      <category term="Node" scheme="http://yoursite.com/tags/Node/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Basic Node.js (Node Spider1)</title>
-    <link href="http://yoursite.com/2018/04/06/NodeSpider/"/>
-    <id>http://yoursite.com/2018/04/06/NodeSpider/</id>
-    <published>2018-04-06T07:24:18.000Z</published>
-    <updated>2019-01-23T22:04:58.675Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="Node的基础与Node-jsの爬虫-上"><a href="#Node的基础与Node-jsの爬虫-上" class="headerlink" title="Node的基础与Node.jsの爬虫(上)"></a>Node的基础与<s>Node.jsの爬虫(上)</s></h1><hr><p>说到爬虫，一般会先想到<a href="https://scrapy.org/">Scarpy</a>或者<a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/">BeautifulSoup</a>这样的python库 但是 当工程量比较小的时候 不需要像Scarpy这样的企业级分布式爬虫的时候 虽然TTfish非常的咸鱼 身为前端工程师 还是用Nodejs比较舒服(才没有表扬Node呢 口亨) 这篇blog主要总结一下之前的经验 尤其是对于学校教务网的探索心得(逃)</p><p><img src="/2018/04/06/NodeSpider/nodejs.png"></p><p>本文包括以下内容：</p><blockquote><ul><li>Nodejs的使用</li><li>NPM的简易操作</li><li>Node爬虫</li><li>Fetch 和 Promise请求队列</li><li>万恶的教务网!</li></ul></blockquote><p>TTfish自己都没想到会有这么多要写 一篇根本写不完 要不还是分开写吧….</p><a id="more"></a><hr><h1 id="Node-js"><a href="#Node-js" class="headerlink" title="Node.js"></a>Node.js</h1><p><a href="https://nodejs.org/en/docs/">Node.js</a>是一个基于 Chrome V8 引擎的 JavaScript 运行环境 Javasrcipt是一门动态类型，面向对象的解释型语言 和Java有相似之处 但是还是有很多的区别(明明叫Livescript 为了蹭Java热度才改的名) 人们发现将它即时编译有非常大的应用前景 于是就有了Node.js这样的前后端兼吃的环境 Node.js不支持多线程(<s>不像Python那样的假多线程</s>) 但是它是非阻塞的 支持并发(<s>不像世界上最好的语言</s>) 它是事件驱动的 带有优秀的npm 包管理器</p><p>要用Node.js写爬虫 首先得有node环境 </p><p><a href="https://nodejs.org/en/download/package-manager/">Download Node.js</a> 根据不同的操作系统下载并安装Node.js </p><p>安装好以后 无论在<code>Terminal / Konsole</code> 还是在 <code>cmd \ powershell</code>(可能需要允许环境变量) 中 都可以运行Node.js了</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ node -v // 查看版本</span><br><span class="line">$ node   //运行node</span><br><span class="line">&gt; console.log(<span class="string">"hello ttfish!"</span>)  //相当于在Chrome里的Console状态</span><br></pre></td></tr></table></figure><p>简单的完成了<code>hello ttfish</code>的打印 如果需要用node执行以.js结尾的文件 只需要<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ node ttfish.js</span><br></pre></td></tr></table></figure></p><p>这样简单的node环境就搭建完成了 一般会用server来实现nodejs的<code>hello world</code> 这里跳过</p><h2 id="NPM的简易使用"><a href="#NPM的简易使用" class="headerlink" title="NPM的简易使用"></a>NPM的简易使用</h2><p><a href="https://www.npmjs.com/">NPM</a>(Node Package Manager)是Node.js的包管理库 方便模块管理 就像PEAR-&gt;PHP一样的概念</p><p>下载Node的时候 其实已经把npm装好了 可以输入<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm -v // 查看版本</span><br></pre></td></tr></table></figure></p><p><img src="/2018/04/06/NodeSpider/kirino.gif"></p><p>对于npm最多的操作 就是<code>npm install</code>安装包 并在<code>js</code>文件中引用 但是 首先应该先初始化npm并生成<code>package.json</code> <strong><em> 这个是个坑 </em></strong> npm会根据package.json配置安装项 优秀的开源工程一般都只需要在<code>git clone</code>以后 一键<code>npm install</code>就安装完成所有的所需项 (就速度而言 推荐设置淘宝源)</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$npm</span> init // 初始化 生成package.json  // 请认真填写！！ 不然会凉</span><br></pre></td></tr></table></figure><p>正常的话 会发现多了package.json文件 默认情况下 npm install的文件会保存在node_modules文件夹中</p><p>Node爬虫需要引入的包有许多 先写一个最简单的 ： </p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ vim ttfish.js</span><br></pre></td></tr></table></figure><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ npm install cheerio // 一个自认为长的像jQuery就很厉害 其实比jQuery还猥琐的库 解析html作用</span><br><span class="line">$ npm install fetch  // 处理http请求</span><br></pre></td></tr></table></figure><p>(关于 -save和–save-dev的区别 请注意)</p><p>使用Fetch 简要的爬取zhihu首页html</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> cheerio = <span class="built_in">require</span>(<span class="string">'cheerio'</span>)</span><br><span class="line"><span class="keyword">const</span> fetch = <span class="built_in">require</span>(<span class="string">'node-fetch'</span>)</span><br><span class="line"><span class="keyword">const</span> url = <span class="string">'https://www.zhihu.com'</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 箭头函数的使用 还有好多能加的参数 具体参考官方文档 </span></span><br><span class="line"></span><br><span class="line">fetch(url， &#123;</span><br><span class="line">  method: POST,</span><br><span class="line">  header: &#123;</span><br><span class="line">    <span class="comment">// some Headers</span></span><br><span class="line">    &#125;</span><br><span class="line">  body: <span class="comment">// 假装有body</span></span><br><span class="line">    &#125;)</span><br><span class="line">  .then(<span class="function"><span class="params">res</span> =&gt;</span> res.text()) </span><br><span class="line">  .then(<span class="function"><span class="params">body</span> =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">let</span> $ = cheerio.load(body)  <span class="comment">// 这里开始迷之cheerio 蜜汁jQuery既视感</span></span><br><span class="line">    $(<span class="string">'***'</span>).map(<span class="function">(<span class="params">i, item</span>) =&gt;</span> &#123;  <span class="comment">// 这里必须吐槽 这个map居然是需要将index作为第一个参数传入的！震惊.jpg</span></span><br><span class="line">    <span class="comment">// 假装要提取DOM元素进行操作</span></span><br><span class="line">    &#125;</span><br><span class="line">  &#125;)</span><br><span class="line"><span class="comment">// 以上只是框架 具体代码可以在我的Github上寻找</span></span><br></pre></td></tr></table></figure><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ node ttfish.js //运行即可</span><br></pre></td></tr></table></figure><p><a href="https://github.com/fish98/Spider">Github 源码</a></p><h3 id="笔记"><a href="#笔记" class="headerlink" title="笔记"></a>笔记</h3><p>向对象添加键值对的方法： A[b] = C  —踩坑已久<br>删除对象键值对： delete D.e<br>map forEach对于数组的操作 不作用于对象<br>对于FormData的append 不适用于一般对象</p><h2 id="假的小结"><a href="#假的小结" class="headerlink" title="假的小结"></a>假的小结</h2><p>先讲到这里吧 写不动 写不动 至少最简单的内模块Fetch可以使用了 当然 SuperAgent库也是没有问题的 爬虫的本质就是向服务端发送请求并对Response进行解析 Node.js写爬虫其实不是很稳 虽然写的爽 但是用起来不是很优雅 之前跑了3000张图片流爬虫 如果全部异步node就会炸 维持10个一组的队列勉勉强强跑了六组跑完了 感觉这样在python的情况下可能会更舒服 等下次再写Promise队列和教务网的爬虫 Promise真是个好东西 hhhh</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;Node的基础与Node-jsの爬虫-上&quot;&gt;&lt;a href=&quot;#Node的基础与Node-jsの爬虫-上&quot; class=&quot;headerlink&quot; title=&quot;Node的基础与Node.jsの爬虫(上)&quot;&gt;&lt;/a&gt;Node的基础与&lt;s&gt;Node.jsの爬虫(上)&lt;/s&gt;&lt;/h1&gt;&lt;hr&gt;
-&lt;p&gt;说到爬虫，一般会先想到&lt;a href=&quot;https://scrapy.org/&quot;&gt;Scarpy&lt;/a&gt;或者&lt;a href=&quot;https://www.crummy.com/software/BeautifulSoup/bs4/doc/&quot;&gt;BeautifulSoup&lt;/a&gt;这样的python库 但是 当工程量比较小的时候 不需要像Scarpy这样的企业级分布式爬虫的时候 虽然TTfish非常的咸鱼 身为前端工程师 还是用Nodejs比较舒服(才没有表扬Node呢 口亨) 这篇blog主要总结一下之前的经验 尤其是对于学校教务网的探索心得(逃)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/2018/04/06/NodeSpider/nodejs.png&quot;&gt;&lt;/p&gt;
-&lt;p&gt;本文包括以下内容：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;Nodejs的使用&lt;/li&gt;
-&lt;li&gt;NPM的简易操作&lt;/li&gt;
-&lt;li&gt;Node爬虫&lt;/li&gt;
-&lt;li&gt;Fetch 和 Promise请求队列&lt;/li&gt;
-&lt;li&gt;万恶的教务网!&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;TTfish自己都没想到会有这么多要写 一篇根本写不完 要不还是分开写吧….&lt;/p&gt;
     
     </summary>
     

@@ -1,0 +1,163 @@
+@charset "utf-8";
+body {
+	background-color: #fff;
+	padding: 0;
+	margin: 0;
+	font-family:"Microsoft YaHei";
+}
+ input:-moz-placeholder, textarea:-moz-placeholder {
+ color: #fff;
+}
+ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+ color: #fff;
+}
+ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+ color: #fff;
+}
+ol, ul, li {
+	padding-left: 0em;
+	list-style: none
+}
+h2, h3, h4, ul, li, p {
+	padding: 0;
+	margin: 0;
+}
+input {
+	outline: none;
+}
+html {
+	padding: 0;
+	margin: 0;
+}
+html, body {
+	height: 100%
+}
+.blue-bg{
+	background:url(./blue-bg.6f293723.png) no-repeat left top;
+	background-size:100% auto;
+}
+.orange-bg{
+	background:url(./orange-bg.d1dba6c7.png) no-repeat left top;
+	background-size:100% auto;
+}
+.top-header{
+	line-height:44px;
+	height:44px;
+	font-size:1.3rem;
+	color:#fff;
+	text-align:center;
+	width:100%;
+}
+.banner{
+	width:100%;
+	text-align:center;
+	margin:40px 0;
+}
+.banner img{
+	width:88%;
+	height:auto;
+
+}
+.content-box{
+	width:90%;
+	height:480px;
+	border-radius:10px;
+	box-shadow:0 0 8px rgba(0, 0, 0, 0.4);
+	background:#fff;
+	margin:0 auto;
+	position:relative;
+}
+.top-title{
+	width:90%;
+	margin:0 auto;
+	line-height:48px;
+}
+.top-title h3{
+	font-size:1.3rem;
+	color:#333;
+	width:70%;
+	float:left;
+	font-weight:normal;
+}
+.link-btn{
+	width:30%;
+	float:right;
+	text-align:right;
+	color:#028aff;
+	text-decoration:none;
+	font-size:1.1rem;
+}
+.time{
+	width:90%;
+	margin:0 auto;
+	text-align:center;
+	line-height:24px;
+	font-size:0.9rem;
+	color:#999;
+}
+.time2{
+	/*width:90%;*/
+	margin:5px;
+	text-align:center;
+	line-height:24px;
+	font-size:1.3rem;
+	color:black;
+	/*font-weight: bold;*/
+}
+.qr{
+	/*width:70%;*/
+	/*margin:15px auto;*/
+	text-align: center;
+	margin:0 auto;
+}
+.qr img{
+	width:100%;
+	height:auto;
+}
+.tip{
+	width:100%;
+	text-align:center;
+	line-height:24px;
+	font-size:1rem;
+	color:#666;
+}
+.bottom-tip{
+	width:80%;
+	margin:30px auto;
+}
+.bottom-tip h3{
+	float:left;
+	font-size:1rem;
+	color:#999;
+	font-weight:normal;
+	width:70%;
+}
+.orange{
+	color:#f75908;
+}
+.hz{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width:100%;
+	text-align:center;
+	line-height:24px;
+	font-size:1rem;
+	color:#666;
+}
+.bgr-blue{
+	background: #028aff;
+	font-size: 18px;
+	border-radius: 20%;
+	padding: 3px;
+	color: white;
+}
+.bgr-oranige{
+	background: #EB6E18;
+	font-size: 18px;
+	border-radius: 20%;
+	padding: 3px;
+	color: white;
+}
+
+
+/*# sourceMappingURL=/main.af46ece4.css.map */

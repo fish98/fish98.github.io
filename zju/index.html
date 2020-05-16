@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="utf-8">
+    <title>浙江大学通行码</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="./main.af46ece4.css">
+<script src="./main.af46ece4.js"></script><!-- hexo-inject:begin --><!-- hexo-inject:end --></head>
+
+<script src="./jquery-1.7.2.min.abab572f.js"></script>
+<script type="text/javascript" src="./jquery.qrcode.min.ea692736.js"></script>
+
+
+<script>setTimeout("location=location; ", 24 * 3600 * 1000 * 3);</script>
+<script>function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+jQuery(function () {
+  var _jQuery$qrcode;
+
+  var colour = '';
+  var flag = '';
+
+  if (null == colour || "" == colour) {
+    colour = "CCCCCC";
+  }
+
+  var mzt = '';
+  var dateTime = '';
+  var array = getJkm();
+
+  if (array.length > 0) {
+    mzt = array[0].mzt;
+    dateTime = array[0].dateTime;
+  }
+
+  if (mzt != 'green') {
+    colour = "CCCCCC";
+  }
+
+  if (mzt == 'green') {
+    $("#hzjkm").append('<div  class="hz" style="color: #55b957">健康码为 绿码</div>');
+  }
+
+  if (mzt == 'yellow') {
+    $("#hzjkm").append('<div  class="hz" style="color: #ee8232">健康码为 黄码</div>');
+  }
+
+  if (mzt == 'red') {
+    $("#hzjkm").append('<div class="hz" style="color: #e8453b">健康码为 红码</div>');
+  }
+
+  if (mzt == 'orange') {
+    $("#hzjkm").append('<div class="hz" style="color: #FFA500">健康码为 橙码</div>');
+  }
+
+  if (mzt == '') {
+    colour = "1E90FF";
+    $("#hzjkm").append('<div class="hz" style="color: #006bc7">健康码获取失败（请打开支付宝出示）</div>');
+  }
+
+  if (mzt == '' && flag == 'Invalid') {
+    colour = "CCCCCC";
+  }
+
+  if (dateTime != '') {
+    $("#dateTime").append('<div class="time">同步时间：' + dateTime + '</div>');
+  } // 已删除
+
+
+  if ('1' == '1') {
+    colour = 'CCCCCC';
+  } // 核酸检测为是
+
+
+  if ('否' == '是') {
+    colour = 'EB6E18';
+  }
+
+  colour = '1E90FF';
+  var account = '3170106187';
+  jQuery('#output').qrcode((_jQuery$qrcode = {
+    render: "table",
+    width: 180,
+    height: 180,
+    text: 'jT6tmuodGqJ8BxagWnLHpbWugrrPFw1u85vXuTwG+kyicPQrgp183dpjyIa8ckAqfwUJ2C3Bc8k='
+  }, _defineProperty(_jQuery$qrcode, "render", "canvas"), _defineProperty(_jQuery$qrcode, "foreground", "#" + colour), _defineProperty(_jQuery$qrcode, "background", "#FFF"), _jQuery$qrcode));
+});
+
+function getJkm() {
+  // var datas = '';
+  // $.ajax({
+  //     type: "GET",
+  //     url: "http://one.zju.edu.cn/pass_code/jkm?account=3170106187&cardNo=330106199810275219&identity=3",
+  //     async: false,
+  //     dataType: 'json',
+  //     success: function (data) {
+  //         datas = data;
+  //     }
+  // });
+  var datas = [{
+    mzt: "green",
+    dateTime: "2020-05-16 10:10:10"
+  }];
+  return datas;
+}
+
+if (true) {
+  //获取系统时间
+  function showTime() {
+    nowtime = new Date();
+    year = nowtime.getFullYear(); //年
+
+    month = nowtime.getMonth() + 1; //月
+
+    day = nowtime.getDate(); //日
+
+    hour = nowtime.getHours(); //时
+
+    minutes = nowtime.getMinutes(); //分
+
+    seconds = nowtime.getSeconds(); //秒
+    //文字增加空格
+
+    document.getElementById("div_timer").style = "white-space:pre;"; //显示时间
+
+    document.getElementById("div_timer").innerText = p(month) + "月" + p(day) + "日 " + p(hour) + ":" + p(minutes) + ":" + p(seconds);
+  }
+
+  setInterval("showTime()", 1000); //月日时分秒小于10补0
+
+  function p(s) {
+    return s < 10 ? '0' + s : s;
+  }
+}</script>
+
+
+
+<body class="blue-bg">
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="banner"><img src="./text.2f88c7b7.png"></div>
+
+
+
+
+    <div class="content-box">
+        <div class="top-title">
+            <h3>俞炯弛的通行码</h3>
+
+
+            <span class="bgr-blue">本科生</span>
+
+
+
+
+
+        </div>
+
+        <strong>
+            <div class="time2" id="div_timer"></div>
+        </strong>
+
+        <div class="qr">
+
+            <div id="output" style="margin-top: 10px;margin-bottom: 10px"></div>
+
+
+
+
+
+
+        </div>
+
+
+        <div class="time">有效期：2020-05-16 - 2020-05-16</div>
+
+
+
+
+
+        <div id="hzjkm"></div>
+
+
+        <div id="dateTime"></div>
+
+        <p class="tip" style="margin-top: 10px;">凭蓝码可在浙江大学校园内通行<br>请主动出示，配合检查</p>
+
+
+        <div style="text-align:center; margin-top: 10px">
+            <a target="_blank" href="http://one.zju.edu.cn/taskcenter/wechat/index">办事大厅</a>&nbsp;&nbsp;&nbsp;
+            <a target="_blank" href="http://one.zju.edu.cn/pass_code/zx/getList">申请记录</a>&nbsp;&nbsp;&nbsp;
+
+
+
+
+
+        </div>
+    </div>
+    <div class="bottom-tip">
+        <h3>安 保 处 ：0571-88206110</h3>
+        <a href="http://xwfw.zju.edu.cn/mobile/redir.php?catalog_id=371039" target="_blank" class="link-btn">常见问题</a>
+        <h3>技术支持：0571-87951669</h3>
+    </div><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</body>
+
+</html>
